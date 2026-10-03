@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans%3Awght%40200..800&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        *,
+        ::before,
+        ::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f8fafc">
+    <div data-pencil-name="Video Material Page - Konsep Dasar User Journey"
+        style="align-items: flex-start; background-color: #f8fafc; box-sizing: border-box; display: flex; flex-direction: column; gap: 0px; height: 1000px; justify-content: flex-start; overflow: hidden; width: 1440px">
+        <div data-pencil-name="Player Top Bar"
+            style="align-items: center; background-color: #ffffff; border-color: #dfe3ea; border-style: solid; border-width: 0px 0px 1px 0px; box-sizing: content-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 59.5px; justify-content: space-between; margin: 0px 0px -0.5px 0px; padding: 0px 24px; width: 1440px">
+            <div data-pencil-name="Top Bar Left"
+                style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 14px; height: fit-content; justify-content: flex-start; width: fit-content">
+                <div data-pencil-name="Back to Detail Btn"
+                    style="align-items: center; background-color: #f8fafc; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 6px 12px; width: fit-content">
+                    <svg data-pencil-name="Back Arrow" data-icon-name="arrow-left" data-icon-set="phosphor"
+                        viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                        style="box-sizing: border-box; flex-shrink: 0; height: 14px; width: 14px">
+                        <path
+                            d="M12.25 7q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672l-8.58594 0 3.22657 3.17188q0.10938 0.16406 0.10937 0.32812 0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672-0.16406 0-0.32812-0.10937l-3.9375-3.9375q-0.10938-0.16406-0.10938-0.32813 0-0.16406 0.10938-0.32812l3.9375-3.9375q0.16406-0.10938 0.32812-0.08204 0.16406 0.02734 0.27344 0.13672 0.10938 0.10938 0.13672 0.27344 0.02734 0.16406-0.08203 0.32813l-3.22657 3.17187 8.58594 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z"
+                            fill="#2872fa"></path>
+                    </svg>
+                    <div data-pencil-name="Back Btn Text"
+                        style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                        Kembali ke Detail Course
+                    </div>
+                </div>
+                <div data-pencil-name="Header Sep"
+                    style="align-items: flex-start; background-color: #e2e8f0; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 24px; justify-content: flex-start; width: 1px">
+                </div>
+                <div data-pencil-name="Header Course Group"
+                    style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; width: fit-content">
+                    <div data-pencil-name="DL Mini Badge"
+                        style="align-items: center; background-color: #2872fa; border-radius: 6px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 28px; justify-content: center; width: 28px">
+                        <div data-pencil-name="DL Text"
+                            style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                            DL
+                        </div>
+                    </div>
+                    <div data-pencil-name="Header Course Title"
+                        style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 13px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                        Digital Product Fundamentals (DP-101)
+                    </div>
+                </div>
+            </div>
+            <div data-pencil-name="Top Bar Right"
+                style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 12px; height: 15px; justify-content: flex-start; width: 262px">
+            </div>
+        </div>
+        <div data-pencil-name="Main Learning Area"
+            style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 20px; height: 940px; justify-content: flex-start; padding: 16px 24px; width: 1440px">
+            <div data-pencil-name="Curriculum Playlist Drawer"
+                style="align-items: flex-start; background-color: #ffffff; border-radius: 12px; box-shadow: 0px 1px 4px #10182806; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 10px; height: 880px; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 14px 16px; width: 396px">
+                <div data-pencil-name="Playlist Header"
+                    style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 4px; height: fit-content; justify-content: flex-start; width: 364px">
+                    <div data-pencil-name="Playlist Title Row"
+                        style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; width: 364px">
+                        <div data-pencil-name="PL Title"
+                            style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 14px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                            Kurikulum Modul 4
+                        </div>
+                        <div data-pencil-name="PL Progress Text"
+                            style='box-sizing: border-box; color: #2872fa; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                            3 dari 6 Selesai
+                        </div>
+                    </div>
+                    <div data-pencil-name="PL Sub"
+                        style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                        User Journey Mapping &amp; Wireframing
+                    </div>
+                    <div data-pencil-name="PL Track"
+                        style="align-items: flex-start; background-color: #e2e8f0; border-radius: 999px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 6px; justify-content: flex-start; width: 364px">
+                        <div data-pencil-name="PL Fill"
+                            style="align-items: flex-start; background-color: #2872fa; border-radius: 999px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 6px; justify-content: flex-start; width: 182px">
+                        </div>
+                    </div>
+                </div>
+                <div data-pencil-name="PL Items List"
+                    style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; width: 364px">
+                    <div data-pencil-name="Playlist Item Frame"
+                        style="align-items: center; background-color: #eff6ff; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; outline-offset: -0.75px; outline: 1.5px solid #2872fa; padding: 8px 10px; width: 364px">
+                        <div data-pencil-name="PL Item Left"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <svg data-pencil-name="PL Item Icon" data-icon-name="play-circle" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 15px; width: 15px">
+                                <path
+                                    d="M7 1.3125q-1.53125 0-2.84375 0.76563-1.3125 0.76563-2.07813 2.07812-0.76563 1.3125-0.76562 2.84375 0 1.53125 0.76562 2.84375 0.76563 1.3125 2.07813 2.07813 1.3125 0.76563 2.84375 0.76562 1.53125 0 2.84375-0.76562 1.3125-0.76563 2.07813-2.07813 0.76563-1.3125 0.76562-2.84375 0-1.53125-0.76562-2.84375-0.76563-1.3125-2.07813-2.07813-1.3125-0.76563-2.84375-0.76562z m0 10.5q-1.3125 0-2.40625-0.65625-1.09375-0.65625-1.75-1.75-0.65625-1.09375-0.65625-2.40625 0-1.3125 0.65625-2.40625 0.65625-1.09375 1.75-1.75 1.09375-0.65625 2.40625-0.65625 1.3125 0 2.40625 0.65625 1.09375 0.65625 1.75 1.75 0.65625 1.09375 0.65625 2.40625 0 1.3125-0.65625 2.40625-0.65625 1.09375-1.75 1.75-1.09375 0.65625-2.40625 0.65625z m1.96875-5.19531l-2.625-1.75q-0.21875-0.10938-0.4375 0-0.21875 0.10938-0.21875 0.38281l0 3.5q0 0.27344 0.21875 0.38281 0.10938 0.05469 0.21875 0.05469 0.10938 0 0.21875-0.05469l2.625-1.75q0.21875-0.16406 0.21875-0.38281 0-0.21875-0.21875-0.38281z m-2.40625 1.3125l0-1.85938 1.42188 0.92969-1.42188 0.92969z"
+                                    fill="#2872fa"></path>
+                            </svg>
+                            <div data-pencil-name="PL Item Texts"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 1px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="PL Item Title"
+                                    style='box-sizing: border-box; color: #1d4ed8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    1. Konsep User Journey Mapping
+                                </div>
+                                <div data-pencil-name="PL Item Sub"
+                                    style='box-sizing: border-box; color: #2563eb; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Video • 18:45 min (98%)
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="PL Item Badge"
+                            style="align-items: center; background-color: #2872fa; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                            <div data-pencil-name="PL Badge Text"
+                                style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Diputar ▶
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Playlist Item Frame"
+                        style="align-items: center; background-color: #ffffff; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 8px 10px; width: 364px">
+                        <div data-pencil-name="PL Item Left"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <svg data-pencil-name="PL Item Icon" data-icon-name="question" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 15px; width: 15px">
+                                <path
+                                    d="M7 1.3125q-1.53125 0-2.84375 0.76563-1.3125 0.76563-2.07813 2.07812-0.76563 1.3125-0.76562 2.84375 0 1.53125 0.76562 2.84375 0.76563 1.3125 2.07813 2.07813 1.3125 0.76563 2.84375 0.76562 1.53125 0 2.84375-0.76562 1.3125-0.76563 2.07813-2.07813 0.76563-1.3125 0.76562-2.84375 0-1.53125-0.76562-2.84375-0.76563-1.3125-2.07813-2.07813-1.3125-0.76563-2.84375-0.76562z m0 10.5q-1.3125 0-2.40625-0.65625-1.09375-0.65625-1.75-1.75-0.65625-1.09375-0.65625-2.40625 0-1.3125 0.65625-2.40625 0.65625-1.09375 1.75-1.75 1.09375-0.65625 2.40625-0.65625 1.3125 0 2.40625 0.65625 1.09375 0.65625 1.75 1.75 0.65625 1.09375 0.65625 2.40625 0 1.3125-0.65625 2.40625-0.65625 1.09375-1.75 1.75-1.09375 0.65625-2.40625 0.65625z m0.65625-1.96875q0 0.27344-0.19141 0.46484-0.19141 0.19141-0.46484 0.19141-0.27344 0-0.46484-0.19141-0.19141-0.19141-0.19141-0.46484 0-0.27344 0.19141-0.46484 0.19141-0.19141 0.46484-0.19141 0.27344 0 0.46484 0.19141 0.19141 0.19141 0.19141 0.46484z m1.3125-3.9375q0 0.71094-0.4375 1.23047-0.4375 0.51953-1.09375 0.68359l0 0.05469q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078l0-0.4375q0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672 0.4375 0 0.76563-0.32813 0.32813-0.32813 0.32812-0.76562 0-0.4375-0.32813-0.76563-0.32813-0.32813-0.76562-0.32812-0.4375 0-0.76563 0.32813-0.32813 0.32813-0.32812 0.76562 0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.82031 0.57422-1.39453 0.57422-0.57422 1.39453-0.57422 0.82031 0 1.39453 0.57422 0.57422 0.57422 0.57422 1.39453z"
+                                    fill="#10b981"></path>
+                            </svg>
+                            <div data-pencil-name="PL Item Texts"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 1px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="PL Item Title"
+                                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    2. Pop-up Quiz Checkpoint 1
+                                </div>
+                                <div data-pencil-name="PL Item Sub"
+                                    style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Pilihan Ganda (Tanpa Attempt)
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="PL Item Badge"
+                            style="align-items: center; background-color: #ecfdf5; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                            <div data-pencil-name="PL Badge Text"
+                                style='box-sizing: border-box; color: #059669; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Benar ✓
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Playlist Item Frame"
+                        style="align-items: center; background-color: #ffffff; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 8px 10px; width: 364px">
+                        <div data-pencil-name="PL Item Left"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <svg data-pencil-name="PL Item Icon" data-icon-name="file-text" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 15px; width: 15px">
+                                <path
+                                    d="M11.70313 4.48438l-3.0625-3.0625q-0.16406-0.10938-0.32813-0.10938l-5.25 0q-0.38281 0-0.62891 0.24609-0.24609 0.24609-0.24609 0.62891l0 9.625q0 0.38281 0.24609 0.62891 0.24609 0.24609 0.62891 0.24609l7.875 0q0.38281 0 0.62891-0.24609 0.24609-0.24609 0.24609-0.62891l0-7q0-0.16406-0.10937-0.32813z m-2.95313-1.69532l1.58594 1.58594-1.58594 0 0-1.58594z m2.1875 9.02344l-7.875 0 0-9.625 4.8125 0 0 2.625q0 0.16406 0.13672 0.30078 0.13672 0.13672 0.30078 0.13672l2.625 0 0 6.5625z m-1.75-4.375q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672l-3.5 0q-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672l3.5 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z m0 1.75q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672l-3.5 0q-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672l3.5 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z"
+                                    fill="#10b981"></path>
+                            </svg>
+                            <div data-pencil-name="PL Item Texts"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 1px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="PL Item Title"
+                                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    3. Template Customer Journey Map
+                                </div>
+                                <div data-pencil-name="PL Item Sub"
+                                    style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Dokumen PDF • 14 Halaman
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="PL Item Badge"
+                            style="align-items: center; background-color: #ecfdf5; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                            <div data-pencil-name="PL Badge Text"
+                                style='box-sizing: border-box; color: #059669; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Selesai ✓
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Playlist Item Frame"
+                        style="align-items: center; background-color: #ffffff; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 8px 10px; width: 364px">
+                        <div data-pencil-name="PL Item Left"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <svg data-pencil-name="PL Item Icon" data-icon-name="video-camera" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 15px; width: 15px">
+                                <path
+                                    d="M13.34375 3.99219q-0.21875-0.10938-0.4375 0l-2.40625 1.36719 0-0.32813q0-0.92969-0.62891-1.55859-0.62891-0.62891-1.55859-0.62891l-7 0q-0.38281 0-0.62891 0.24609-0.24609 0.24609-0.24609 0.62891l0 5.25q0 0.92969 0.62891 1.55859 0.62891 0.62891 1.55859 0.62891l7 0q0.38281 0 0.62891-0.24609 0.24609-0.24609 0.24609-0.62891l0-1.64063 2.40625 1.36719q0.10938 0.05469 0.21875 0.05469 0.10938 0 0.21875-0.05469 0.21875-0.10937 0.21875-0.38281l0-5.25q0-0.27344-0.21875-0.38281z m-3.71875 6.28906l-7 0q-0.54688 0-0.92969-0.38281-0.38281-0.38281-0.38281-0.92969l0-5.25 7 0q0.54688 0 0.92969 0.38281 0.38281 0.38281 0.38281 0.92969l0 5.25z m3.0625-1.42188l-2.1875-1.25781 0-1.20312 2.1875-1.25781 0 3.71875z"
+                                    fill="#2872fa"></path>
+                            </svg>
+                            <div data-pencil-name="PL Item Texts"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 1px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="PL Item Title"
+                                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    4. Praktik Wireframe Low-Fidelity
+                                </div>
+                                <div data-pencil-name="PL Item Sub"
+                                    style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Video • 24:30 min (Progres 45%)
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="PL Item Badge"
+                            style="align-items: center; background-color: #f0f9ff; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                            <div data-pencil-name="PL Badge Text"
+                                style='box-sizing: border-box; color: #0284c7; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                45% ⏱️
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Playlist Item Frame"
+                        style="align-items: center; background-color: #ffffff; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; opacity: 0.7; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 8px 10px; width: 364px">
+                        <div data-pencil-name="PL Item Left"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <svg data-pencil-name="PL Item Icon" data-icon-name="lock" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 15px; width: 15px">
+                                <path
+                                    d="M11.375 4.375l-1.96875 0 0-1.53125q0-0.98438-0.71094-1.69531-0.71094-0.71094-1.69531-0.71094-0.98438 0-1.69531 0.71094-0.71094 0.71094-0.71094 1.69531l0 1.53125-1.96875 0q-0.38281 0-0.62891 0.24609-0.24609 0.24609-0.24609 0.62891l0 6.125q0 0.38281 0.24609 0.62891 0.24609 0.24609 0.62891 0.24609l8.75 0q0.38281 0 0.62891-0.24609 0.24609-0.24609 0.24609-0.62891l0-6.125q0-0.38281-0.24609-0.62891-0.24609-0.24609-0.62891-0.24609z m-5.90625-1.53125q0-0.65625 0.4375-1.09375 0.4375-0.4375 1.09375-0.4375 0.65625 0 1.09375 0.4375 0.4375 0.4375 0.4375 1.09375l0 1.53125-3.0625 0 0-1.53125z m5.90625 8.53125l-8.75 0 0-6.125 8.75 0 0 6.125z m-3.71875-3.0625q0 0.27344-0.19141 0.46484-0.19141 0.19141-0.46484 0.19141-0.27344 0-0.46484-0.19141-0.19141-0.19141-0.19141-0.46484 0-0.27344 0.19141-0.46484 0.19141-0.19141 0.46484-0.19141 0.27344 0 0.46484 0.19141 0.19141 0.19141 0.19141 0.46484z"
+                                    fill="#94a3b8"></path>
+                            </svg>
+                            <div data-pencil-name="PL Item Texts"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 1px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="PL Item Title"
+                                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    5. Pop-up Quiz Checkpoint 2
+                                </div>
+                                <div data-pencil-name="PL Item Sub"
+                                    style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Pilihan Ganda (2 Attempt)
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="PL Item Badge"
+                            style="align-items: center; background-color: #f1f5f9; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                            <div data-pencil-name="PL Badge Text"
+                                style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Terkunci 🔒
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Playlist Item Frame"
+                        style="align-items: center; background-color: #ffffff; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; opacity: 0.7; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 8px 10px; width: 364px">
+                        <div data-pencil-name="PL Item Left"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <svg data-pencil-name="PL Item Icon" data-icon-name="lock" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 15px; width: 15px">
+                                <path
+                                    d="M11.375 4.375l-1.96875 0 0-1.53125q0-0.98438-0.71094-1.69531-0.71094-0.71094-1.69531-0.71094-0.98438 0-1.69531 0.71094-0.71094 0.71094-0.71094 1.69531l0 1.53125-1.96875 0q-0.38281 0-0.62891 0.24609-0.24609 0.24609-0.24609 0.62891l0 6.125q0 0.38281 0.24609 0.62891 0.24609 0.24609 0.62891 0.24609l8.75 0q0.38281 0 0.62891-0.24609 0.24609-0.24609 0.24609-0.62891l0-6.125q0-0.38281-0.24609-0.62891-0.24609-0.24609-0.62891-0.24609z m-5.90625-1.53125q0-0.65625 0.4375-1.09375 0.4375-0.4375 1.09375-0.4375 0.65625 0 1.09375 0.4375 0.4375 0.4375 0.4375 1.09375l0 1.53125-3.0625 0 0-1.53125z m5.90625 8.53125l-8.75 0 0-6.125 8.75 0 0 6.125z m-3.71875-3.0625q0 0.27344-0.19141 0.46484-0.19141 0.19141-0.46484 0.19141-0.27344 0-0.46484-0.19141-0.19141-0.19141-0.19141-0.46484 0-0.27344 0.19141-0.46484 0.19141-0.19141 0.46484-0.19141 0.27344 0 0.46484 0.19141 0.19141 0.19141 0.19141 0.46484z"
+                                    fill="#94a3b8"></path>
+                            </svg>
+                            <div data-pencil-name="PL Item Texts"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 1px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="PL Item Title"
+                                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    6. Handover Desain ke Engineering
+                                </div>
+                                <div data-pencil-name="PL Item Sub"
+                                    style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Artikel Teks • Baca 10 min
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="PL Item Badge"
+                            style="align-items: center; background-color: #f1f5f9; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                            <div data-pencil-name="PL Badge Text"
+                                style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Terkunci 🔒
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-pencil-name="Player and Material Column"
+                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 12px; height: fit-content; justify-content: flex-start; width: 976px">
+                <div data-pencil-name="Video Player Container"
+                    style="align-items: flex-start; background-color: #0b0f19; border-radius: 12px; box-shadow: 0px 4px 12px #00000030; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 0px; height: 480px; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #1e293b; overflow: hidden; width: 976px">
+                    <div data-pencil-name="Player Top Overlay"
+                        style="align-items: center; background-image: linear-gradient(0deg, #000000cc 0%, #00000000 100%); background-repeat: no-repeat; background-size: 100% 100%; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; padding: 12px 18px; width: 976px">
+                        <div data-pencil-name="Player Title Row"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; width: fit-content">
+                            <div data-pencil-name="Video Tag Badge"
+                                style="align-items: center; background-color: #2872fa; border-radius: 4px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: flex-start; padding: 2px 6px; width: fit-content">
+                                <div data-pencil-name="Video Tag Text"
+                                    style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    VIDEO MATERI
+                                </div>
+                            </div>
+                            <div data-pencil-name="Overlay Video Title"
+                                style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 13px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                1. Konsep Dasar User Journey Mapping • Modul 4
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Video Slide Visual Frame"
+                        style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 350px; justify-content: center; padding: 0px 40px; width: 976px">
+                        <div data-pencil-name="Customer Journey Slide Mockup"
+                            style="align-items: flex-start; background-color: #131b2e; border-radius: 10px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 0px; height: 280px; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #1e293b; padding: 16px 20px; width: 820px">
+                            <div data-pencil-name="Slide Title Row"
+                                style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; width: 780px">
+                                <div data-pencil-name="Slide Heading"
+                                    style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 15px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Customer Journey Mapping: 4 Tahapan Utama Interaksi Pengguna
+                                </div>
+                                <div data-pencil-name="Slide Subtag"
+                                    style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Framework Praktis Product Management
+                                </div>
+                            </div>
+                            <div data-pencil-name="Journey Stages Row"
+                                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; width: 780px">
+                                <div data-pencil-name="Stage Box"
+                                    style="align-items: flex-start; background-color: #1e293b; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 4px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #334155; padding: 10px; width: 187px">
+                                    <div data-pencil-name="Stage Number"
+                                        style='box-sizing: border-box; color: #38bdf8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        FASE 01
+                                    </div>
+                                    <div data-pencil-name="Stage Name"
+                                        style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        Awareness
+                                    </div>
+                                    <div data-pencil-name="Stage Desc"
+                                        style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: 14px; text-align: left; width: 167px'>
+                                        Pengguna menyadari adanya masalah dan mencari alternatif solusi.
+                                    </div>
+                                </div>
+                                <div data-pencil-name="Stage Box"
+                                    style="align-items: flex-start; background-color: #1e293b; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 4px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #334155; padding: 10px; width: 187px">
+                                    <div data-pencil-name="Stage Number"
+                                        style='box-sizing: border-box; color: #818cf8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        FASE 02
+                                    </div>
+                                    <div data-pencil-name="Stage Name"
+                                        style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        Consideration
+                                    </div>
+                                    <div data-pencil-name="Stage Desc"
+                                        style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: 14px; text-align: left; width: 167px'>
+                                        Mengevaluasi fitur, harga, dan kemudahan MVP produk digital.
+                                    </div>
+                                </div>
+                                <div data-pencil-name="Stage Box"
+                                    style="align-items: flex-start; background-color: #1e293b; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 4px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #334155; padding: 10px; width: 187px">
+                                    <div data-pencil-name="Stage Number"
+                                        style='box-sizing: border-box; color: #34d399; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        FASE 03
+                                    </div>
+                                    <div data-pencil-name="Stage Name"
+                                        style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        Decision / Trial
+                                    </div>
+                                    <div data-pencil-name="Stage Desc"
+                                        style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: 14px; text-align: left; width: 167px'>
+                                        Mendaftar akun, mencoba modul awal, dan mengalami aha-moment.
+                                    </div>
+                                </div>
+                                <div data-pencil-name="Stage Box"
+                                    style="align-items: flex-start; background-color: #1e293b; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 4px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #334155; padding: 10px; width: 187px">
+                                    <div data-pencil-name="Stage Number"
+                                        style='box-sizing: border-box; color: #fbbf24; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        FASE 04
+                                    </div>
+                                    <div data-pencil-name="Stage Name"
+                                        style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        Retention
+                                    </div>
+                                    <div data-pencil-name="Stage Desc"
+                                        style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: 14px; text-align: left; width: 167px'>
+                                        Menggunakan produk secara konsisten dan merekomendasikan.
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-pencil-name="Slide Footer Row"
+                                style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; width: 780px">
+                                <div data-pencil-name="Slide Footer Note"
+                                    style='box-sizing: border-box; color: #64748b; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    Perhatikan titik temu (touchpoints) dan kurva emosi pelanggan pada setiap fase.
+                                </div>
+                                <div data-pencil-name="Presenter Badge"
+                                    style="align-items: center; background-color: #0f172a; border-radius: 6px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #334155; padding: 3px 8px; width: fit-content">
+                                    <svg data-pencil-name="Mic Icon" data-icon-name="user" data-icon-set="phosphor"
+                                        viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        style="box-sizing: border-box; flex-shrink: 0; height: 12px; width: 12px">
+                                        <path
+                                            d="M12.6875 11.59375q-0.60156-1.03906-1.55859-1.80469-0.95703-0.76563-2.10547-1.14844 1.14844-0.71094 1.64062-1.9414 0.49219-1.23047 0.13672-2.51563-0.35547-1.28516-1.42187-2.07812-1.06641-0.79297-2.37891-0.79297-1.3125 0-2.37891 0.79297-1.06641 0.79297-1.42187 2.07812-0.35547 1.28516 0.13672 2.51563 0.49219 1.23047 1.64062 1.9414-1.14844 0.38281-2.10547 1.14844-0.95703 0.76563-1.55859 1.80469-0.16406 0.21875-0.02734 0.46484 0.13672 0.24609 0.41015 0.21875 0.27344-0.02734 0.38281-0.24609 0.76563-1.3125 2.07813-2.07813 1.3125-0.76563 2.84375-0.76562 1.53125 0 2.84375 0.76562 1.3125 0.76563 2.07812 2.07813 0.10938 0.21875 0.38282 0.24609 0.27344 0.02734 0.41015-0.21875 0.13672-0.24609-0.02734-0.46484z m-8.75-6.34375q0-0.82031 0.41016-1.53125 0.41016-0.71094 1.12109-1.12109 0.71094-0.41016 1.53125-0.41016 0.82031 0 1.53125 0.41016 0.71094 0.41016 1.12109 1.12109 0.41016 0.71094 0.41016 1.53125 0 0.82031-0.41016 1.53125-0.41016 0.71094-1.12109 1.12109-0.71094 0.41016-1.53125 0.41016-0.82031 0-1.53125-0.41016-0.71094-0.41016-1.12109-1.12109-0.41016-0.71094-0.41016-1.53125z"
+                                            fill="#2872fa"></path>
+                                    </svg>
+                                    <div data-pencil-name="Presenter Text"
+                                        style='box-sizing: border-box; color: #e2e8f0; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                        Andi Setiawan • Senior Product Manager
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-pencil-name="Video Controls Bar"
+                        style="align-items: flex-start; background-image: linear-gradient(0deg, #00000000 0%, #000000f0 100%); background-repeat: no-repeat; background-size: 100% 100%; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 6px; height: 52px; justify-content: flex-start; padding: 0px 16px 8px 16px; width: 976px">
+                        <div data-pencil-name="Scrubber Track Frame"
+                            style="align-items: flex-start; background-color: #ffffff30; border-radius: 999px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 6px; justify-content: flex-start; width: 944px">
+                            <div data-pencil-name="Scrubber Watched Fill"
+                                style="align-items: center; background-color: #2872fa; border-radius: 999px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 6px; justify-content: flex-end; width: 925px">
+                                <div data-pencil-name="Scrubber Thumb"
+                                    style="align-items: flex-start; background-color: #ffffff; border-radius: 3px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 6px; justify-content: flex-start; width: 6px">
+                                </div>
+                            </div>
+                        </div>
+                        <div data-pencil-name="Controls Action Row"
+                            style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; width: 944px">
+                            <div data-pencil-name="Controls Left"
+                                style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 12px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <svg data-pencil-name="Play Pause Icon" data-icon-name="pause" data-icon-set="phosphor"
+                                    viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="box-sizing: border-box; flex-shrink: 0; height: 18px; width: 18px">
+                                    <path
+                                        d="M10.9375 1.75l-1.96875 0q-0.38281 0-0.62891 0.24609-0.24609 0.24609-0.24609 0.62891l0 8.75q0 0.38281 0.24609 0.62891 0.24609 0.24609 0.62891 0.24609l1.96875 0q0.38281 0 0.62891-0.24609 0.24609-0.24609 0.24609-0.62891l0-8.75q0-0.38281-0.24609-0.62891-0.24609-0.24609-0.62891-0.24609z m0 9.625l-1.96875 0 0-8.75 1.96875 0 0 8.75z m-5.90625-9.625l-1.96875 0q-0.38281 0-0.62891 0.24609-0.24609 0.24609-0.24609 0.62891l0 8.75q0 0.38281 0.24609 0.62891 0.24609 0.24609 0.62891 0.24609l1.96875 0q0.38281 0 0.62891-0.24609 0.24609-0.24609 0.24609-0.62891l0-8.75q0-0.38281-0.24609-0.62891-0.24609-0.24609-0.62891-0.24609z m0 9.625l-1.96875 0 0-8.75 1.96875 0 0 8.75z"
+                                        fill="#ffffff"></path>
+                                </svg>
+                                <svg data-pencil-name="Volume Icon" data-icon-name="speaker-high"
+                                    data-icon-set="phosphor" viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="box-sizing: border-box; flex-shrink: 0; height: 16px; width: 16px">
+                                    <path
+                                        d="M13.5625 7q0 0.875-0.32813 1.66797-0.32813 0.79297-0.92968 1.44922-0.16406 0.10937-0.32813 0.10937-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.10938-0.32812 0.49219-0.49219 0.76562-1.1211 0.27344-0.62891 0.27344-1.33984 0-0.71094-0.27344-1.33984-0.27344-0.62891-0.76562-1.1211-0.10938-0.16406-0.10938-0.32812 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672 0.16406 0 0.32813 0.10937 0.60156 0.65625 0.92968 1.44922 0.32813 0.79297 0.32813 1.66797z m-4.8125-5.25l0 10.5q0 0.27344-0.27344 0.38281-0.05469 0.05469-0.1914 0.05469-0.13672 0-0.2461-0.10937l-3.82812-2.95313-2.46094 0q-0.38281 0-0.62891-0.24609-0.24609-0.24609-0.24609-0.62891l0-3.5q0-0.38281 0.24609-0.62891 0.24609-0.24609 0.62891-0.24609l2.46094 0 3.82812-2.95313q0.21875-0.16406 0.46485-0.05468 0.24609 0.10938 0.24609 0.38281z m-7 7l2.1875 0 0-3.5-2.1875 0 0 3.5z m6.125-6.125l-3.0625 2.40625 0 3.9375 3.0625 2.40625 0-8.75z m2.24219 2.84375q-0.10938 0.10938-0.10938 0.30078 0 0.19141 0.10938 0.30078 0.38281 0.38281 0.38281 0.92969 0 0.54688-0.38281 0.92969-0.10938 0.10938-0.10938 0.30078 0 0.19141 0.10938 0.32812 0.10937 0.13672 0.30078 0.13672 0.19141 0 0.30078-0.16406 0.65625-0.60156 0.65625-1.53125 0-0.92969-0.65625-1.53125-0.10938-0.16406-0.30078-0.16406-0.19141 0-0.30078 0.16406z"
+                                        fill="#ffffff"></path>
+                                </svg>
+                                <div data-pencil-name="Time Text"
+                                    style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    18:15 / 18:45
+                                </div>
+                            </div>
+                            <div data-pencil-name="Controls Right"
+                                style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 14px; height: fit-content; justify-content: flex-start; width: fit-content">
+                                <div data-pencil-name="Speed Text"
+                                    style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    1.0x
+                                </div>
+                                <div data-pencil-name="Quality Text"
+                                    style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                    1080p HD
+                                </div>
+                                <svg data-pencil-name="Fullscreen Icon" data-icon-name="corners-out"
+                                    data-icon-set="phosphor" viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="box-sizing: border-box; flex-shrink: 0; height: 16px; width: 16px">
+                                    <path
+                                        d="M11.8125 2.625l0 2.1875q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078l0-1.75-1.75 0q-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672l2.1875 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z m-7 8.3125l-1.75 0 0-1.75q0-0.16406-0.13672-0.30078-0.13672-0.13672-0.30078-0.13672-0.16406 0-0.30078 0.13672-0.13672 0.13672-0.13672 0.30078l0 2.1875q0 0.16406 0.13672 0.30078 0.13672 0.13672 0.30078 0.13672l2.1875 0q0.16406 0 0.30078-0.13672 0.13672-0.13672 0.13672-0.30078 0-0.16406-0.13672-0.30078-0.13672-0.13672-0.30078-0.13672z m6.5625-2.1875q-0.16406 0-0.30078 0.13672-0.13672 0.13672-0.13672 0.30078l0 1.75-1.75 0q-0.16406 0-0.30078 0.13672-0.13672 0.13672-0.13672 0.30078 0 0.16406 0.13672 0.30078 0.13672 0.13672 0.30078 0.13672l2.1875 0q0.16406 0 0.30078-0.13672 0.13672-0.13672 0.13672-0.30078l0-2.1875q0-0.16406-0.13672-0.30078-0.13672-0.13672-0.30078-0.13672z m-6.5625-6.5625l-2.1875 0q-0.16406 0-0.30078 0.13672-0.13672 0.13672-0.13672 0.30078l0 2.1875q0 0.16406 0.13672 0.30078 0.13672 0.13672 0.30078 0.13672 0.16406 0 0.30078-0.13672 0.13672-0.13672 0.13672-0.30078l0-1.75 1.75 0q0.16406 0 0.30078-0.13672 0.13672-0.13672 0.13672-0.30078 0-0.16406-0.13672-0.30078-0.13672-0.13672-0.30078-0.13672z"
+                                        fill="#ffffff"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-pencil-name="Video Title Action Row"
+                    style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: fit-content; justify-content: space-between; width: 976px">
+                    <div data-pencil-name="Video Title Text Group"
+                        style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 2px; height: fit-content; justify-content: flex-start; width: fit-content">
+                        <div data-pencil-name="Main Video Title"
+                            style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 20px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                            1. Konsep Dasar User Journey Mapping
+                        </div>
+                    </div>
+                    <div data-pencil-name="Action Btns Group"
+                        style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; width: fit-content">
+                        <div data-pencil-name="Prev Material Btn Disabled"
+                            style="align-items: center; background-color: #f8fafc; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; opacity: 0.6; outline-offset: -0.5px; outline: 1px solid #eaecf0; padding: 8px 14px; width: fit-content">
+                            <svg data-pencil-name="Prev Arrow" data-icon-name="arrow-left" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 14px; width: 14px">
+                                <path
+                                    d="M12.25 7q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672l-8.58594 0 3.22657 3.17188q0.10938 0.16406 0.10937 0.32812 0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672-0.16406 0-0.32812-0.10937l-3.9375-3.9375q-0.10938-0.16406-0.10938-0.32813 0-0.16406 0.10938-0.32812l3.9375-3.9375q0.16406-0.10938 0.32812-0.08204 0.16406 0.02734 0.27344 0.13672 0.10938 0.10938 0.13672 0.27344 0.02734 0.16406-0.08203 0.32813l-3.22657 3.17187 8.58594 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z"
+                                    fill="#94a3b8"></path>
+                            </svg>
+                            <div data-pencil-name="Prev Text"
+                                style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Materi Sebelumnya
+                            </div>
+                        </div>
+                        <div data-pencil-name="Next Material Btn Active"
+                            style="align-items: center; background-color: #2872fa; border-radius: 8px; box-shadow: 0px 2px 4px #2872fa30; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #2872fa; padding: 8px 16px; width: fit-content">
+                            <div data-pencil-name="Next Text"
+                                style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                                Lanjut: Pop-up Quiz 1
+                            </div>
+                            <svg data-pencil-name="Next Arrow" data-icon-name="arrow-right" data-icon-set="phosphor"
+                                viewBox="0 0 14 14" preserveAspectRatio="xMidYMid meet"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style="box-sizing: border-box; flex-shrink: 0; height: 14px; width: 14px">
+                                <path
+                                    d="M12.14063 7.32813l-3.9375 3.9375q-0.16406 0.10938-0.32813 0.10937-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.10938-0.32812l3.22656-3.17188-8.58594 0q-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672l8.58594 0-3.22657-3.17188q-0.10938-0.16406-0.08203-0.32812 0.02734-0.16406 0.13672-0.27344 0.10938-0.10938 0.27344-0.13672 0.16406-0.02734 0.32812 0.08203l3.9375 3.9375q0.10938 0.16406 0.10938 0.32813 0 0.16406-0.10938 0.32812z"
+                                    fill="#ffffff"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div data-pencil-name="Material Tabs Bar"
+                    style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 24px; height: fit-content; justify-content: flex-start; width: 976px">
+                    <div data-pencil-name="Tab Item"
+                        style="align-items: center; border-color: #2872fa; border-style: solid; border-width: 0px 0px 2px 0px; box-sizing: content-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 0px; height: 31px; justify-content: flex-start; margin: 0px 0px -1px 0px; padding: 8px 2px; width: 112px">
+                        <div data-pencil-name="Tab Title"
+                            style='box-sizing: border-box; color: #2872fa; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 13px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                            Ringkasan Materi
+                        </div>
+                    </div>
+                </div>
+                <div data-pencil-name="Tab Content Panel"
+                    style="align-items: flex-start; background-color: #ffffff; border-radius: 10px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 8px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 12px 16px; width: 976px">
+                    <div data-pencil-name="Overview Title"
+                        style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 13px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap'>
+                        Tentang Materi Ini:
+                    </div>
+                    <div data-pencil-name="Overview Paragraph"
+                        style='box-sizing: border-box; color: #475467; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: 0px; line-height: 18px; text-align: left; width: 944px'>
+                        Pada materi video ini, Anda mempelajari kerangka kerja Customer Journey Mapping yang
+                        menjadi landasan strategis sebelum membuat prototipe MVP. Pemetaan ini membantu tim
+                        produk mendokumentasikan interaksi pengguna, menemukan titik frustrasi (pain points),
+                        dan merumuskan solusi fitur yang tepat sasaran.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

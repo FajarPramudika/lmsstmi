@@ -1,0 +1,134 @@
+/**
+ * tokens.css — Digital Learn Platform Design Tokens
+ * Single Source of Truth for LMS UI/UX Design System
+ * Matched with design.pen and DESIGN.md §2.5 & §23.2
+ */
+
+:root {
+  /* Brand Primary Palette (STMI / Digital Learn Blue) */
+  --color-primary: #2872fa;
+  --color-primary-hover: #1559ed;
+  --color-primary-dark: #175d9b;
+  --color-primary-soft: #e8f1fa;
+  --color-accent-subtle: #1e73be;
+  --color-primary-glow: rgba(40, 114, 250, 0.25);
+
+  /* Neutrals & Surfaces */
+  --color-bg-app: #f4f6f9;
+  --color-bg-page: #fafbfc;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f2f5f7;
+  --color-border: #dfe3ea;
+  --color-border-subtle: #e1e8ed;
+
+  /* Typography Colors */
+  --color-text-main: #192a3d;
+  --color-text-body: #1d2530;
+  --color-text-muted: #667085;
+  --color-text-secondary: #475467;
+  --color-text-light: #98a2b3;
+
+  /* Sidebar Theme */
+  --color-sidebar: #16212e;
+  --color-sidebar-text: #c5ced9;
+  --color-sidebar-active: #e8f1fa;
+
+  /* Semantics */
+  --color-success: #1e7e45;
+  --color-success-soft: #e7f6ec;
+  --color-success-border: #b7e2c4;
+  --color-warning: #8a6100;
+  --color-warning-soft: #fff6e0;
+  --color-warning-border: #f5e1a4;
+  --color-danger: #c0392b;
+  --color-danger-soft: #fdecea;
+  --color-danger-border: #f3c2bc;
+  --color-info: #2872fa;
+  --color-info-soft: #e8f1fa;
+  --color-info-border: #cbd8ee;
+
+  /* Learning, Exam & Certificate Special Tokens (DESIGN.md §2.5) */
+  --bg-page-user: #f8fafc;
+  --emerald: #059669;
+  --emerald-50: #f0fdf4;
+  --emerald-100: #dcfce7;
+  --emerald-border: #86efac;
+  --emerald-border-soft: #bbf7d0;
+  --emerald-text: #16a34a;
+  --progress-done: #10b981;
+
+  --blue-50: #eff6ff;
+  --blue-border: #bfdbfe;
+  --blue-text: #1d4ed8;
+  --soft-blue-banner: #f0f6fe;
+  --soft-blue-border: #d0e1fd;
+
+  --flag-bg: #fefce8;
+  --flag-border: #fde047;
+  --flag-text: #ca8a04;
+
+  --timer-bg: #fef2f2;
+  --timer-border: #fecaca;
+  --timer-text: #dc2626;
+
+  --info-bg: #f0f9ff;
+  --info-border: #bae6fd;
+  --info-text: #0369a1;
+
+  --slate-950: #020617;
+  --slate-900: #0f172a;
+  --slate-800: #1e293b;
+  --slate-700: #334155;
+  --slate-600: #475467;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 14px;
+  --radius-3xl: 16px;
+  --radius-card: 14px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-md: 0 4px 8px -2px rgba(16, 24, 40, 0.08), 0 2px 4px -2px rgba(16, 24, 40, 0.04);
+  --shadow-lg: 0 12px 16px -4px rgba(16, 24, 40, 0.08), 0 4px 6px -2px rgba(16, 24, 40, 0.03);
+  --shadow-xl: 0 20px 24px -4px rgba(16, 24, 40, 0.08), 0 8px 8px -4px rgba(16, 24, 40, 0.03);
+  --shadow-blue: 0 4px 14px rgba(40, 114, 250, 0.28);
+  --shadow-emerald: 0 4px 14px rgba(5, 150, 105, 0.25);
+
+  /* Typography Stacks */
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Dimensions */
+  --sidebar-width: 260px;
+  --header-height: 70px;
+  --learn-header-height: 60px;
+  --playlist-drawer-width: 396px;
+  --learn-workspace-width: 976px;
+  --container-max-app: 1116px;
+  --container-max-public: 1280px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
