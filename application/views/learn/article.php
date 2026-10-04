@@ -1,101 +1,193 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
+$course_slug = isset($course_slug) ? $course_slug : 'digital-product-fundamentals';
 ?>
-<!-- Article Material Learning Workspace matching design.pen DSG:k5KcIm -->
+<!-- Article Material Learning Workspace matching design-reference/article-material.html -->
 
-<!-- Left: Reusable Curriculum Playlist Drawer -->
-<?php $this->load->view('partials/playlist_drawer', array('active_item' => 6)); ?>
+<!-- Top Navigation & Breadcrumb (seiras dengan halaman detail courses) -->
+<?php $this->load->view('partials/breadcrumb_learn', array(
+    'course_slug'  => $course_slug,
+    'course_code'  => isset($course_code) ? $course_code : 'DP-101',
+    'course_title' => isset($course_title) ? $course_title : 'Digital Product Fundamentals',
+    'active_title' => '6. Studi Kasus Implementasi Journey Maps'
+)); ?>
 
-<!-- Right: Article Workspace Column (976px) -->
-<div class="learn-workspace">
-    <!-- 1. Article Header Card matching design.pen DSG:mq9b1 -->
-    <div class="card" style="padding:16px 22px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-        <div>
-            <span class="overline" style="color:var(--color-primary); font-weight:800;">
-                MODUL 4 &bull; MATERI 6 DARI 6 (ARTIKEL TEKS)
-            </span>
-            <h1 style="font-size:18px; font-weight:800; color:var(--color-text-main); margin-top:2px;">
+<div class="learn-container">
+    <!-- Left: Reusable Curriculum Playlist Drawer (396px) -->
+    <?php $this->load->view('partials/playlist_drawer', ['active_item' => 6, 'course_slug' => $course_slug]); ?>
+
+    <!-- Right: Article Workspace Column -->
+    <div data-pencil-name="Quiz Workspace Column" class="learn-workspace"
+        style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; height: fit-content; justify-content: flex-start; flex: 1; min-width: 0;">
+    
+    <!-- 1. Article Header Card -->
+    <div data-pencil-name="Article Header Card"
+        style="align-items: center; background-color: #ffffff; border-radius: 12px; box-sizing: border-box; display: flex; flex-direction: row; flex-wrap: wrap; flex-shrink: 0; gap: 12px; height: fit-content; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 14px 18px; width: 100%;">
+        <div data-pencil-name="Title Group"
+            style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 2px; height: fit-content; justify-content: flex-start;">
+            <div data-pencil-name="Main Title"
+                style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 20px; font-style: normal; font-weight: 800; letter-spacing: 0px; line-height: normal; text-align: left;'>
                 6. Handover Desain ke Engineering
-            </h1>
+            </div>
         </div>
-
-        <span class="badge badge-emerald">
-            <?= icon('check-circle', 'icon-xs'); ?>
-            <span>Selesai Dibaca (Hingga Akhir Artikel) ✓</span>
-        </span>
+        <div data-pencil-name="Reading Done Badge"
+            style="align-items: center; background-color: #f0fdf4; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #bbf7d0; padding: 8px 14px; width: fit-content;">
+            <svg viewBox="0 0 14 14" style="height: 14px; width: 14px; flex-shrink: 0;" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.73438 5.35938q0.10938 0.16406 0.10937 0.35546 0 0.19141-0.10937 0.30079l-3.22657 3.0625q-0.10938 0.10938-0.30078 0.10937-0.19141 0-0.30078-0.10937l-1.58594-1.53125q-0.21875-0.16406-0.16406-0.4375 0.05469-0.27344 0.30078-0.32813 0.24609-0.05469 0.41016 0.10938l1.3125 1.25781 2.95312-2.78906q0.10938-0.10938 0.30078-0.10938 0.19141 0 0.30078 0.16406l0-0.05468z m2.95312 1.64062q0 1.53125-0.76563 2.84375-0.76563 1.3125-2.07812 2.07813-1.3125 0.76563-2.84375 0.76562-1.53125 0-2.84375-0.76562-1.3125-0.76563-2.07813-2.07813-0.76563-1.3125-0.76562-2.84375 0-1.53125 0.76562-2.84375 0.76563-1.3125 2.07813-2.07813 1.3125-0.76563 2.84375-0.76562 1.53125 0 2.84375 0.76562 1.3125 0.76563 2.07813 2.07813 0.76563 1.3125 0.76562 2.84375z" fill="#10b981"></path>
+            </svg>
+            <div data-pencil-name="Done Text"
+                style='box-sizing: border-box; color: #10b981; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-style: normal; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap;'>
+                Selesai Dibaca (Hingga Akhir Artikel) ✓
+            </div>
+        </div>
     </div>
 
-    <!-- 2. Article Reader Box matching design.pen DSG:S1u6SD -->
-    <div class="card" style="overflow:hidden; padding:0;">
-        <!-- Dark Cover Banner matching design.pen DSG:q29Ri6 -->
-        <div style="background-color:var(--slate-900); padding:32px 36px; color:#ffffff;">
-            <div style="font-size:11px; font-weight:800; color:var(--color-primary); letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">
-                DOKUMENTASI PRODUK &bull; MODUL 4.6
+    <!-- 2. Article Reader Container (640px) -->
+    <div data-pencil-name="Article Reader Container"
+        style="align-items: flex-start; background-color: #ffffff; border-radius: 12px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 0px; height: 640px; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #dfe3ea; overflow: hidden; width: 100%;">
+        
+        <!-- Article Cover Banner -->
+        <div data-pencil-name="Article Cover Banner"
+            style="align-items: flex-start; background-color: #0f172a; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 6px; height: auto; min-height: 105px; justify-content: center; padding: 16px 24px; width: 100%;">
+            <div data-pencil-name="Cover Tag"
+                style='box-sizing: border-box; color: #38bdf8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left;'>
+                DOKUMENTASI PRODUK &amp; KOLABORASI TIM • MODUL 4.6
             </div>
-            <h2 style="font-size:22px; font-weight:800; color:#ffffff; margin-bottom:8px; line-height:1.3;">
-                Panduan Praktis Handover Desain MVP ke Engineering
-            </h2>
-            <div style="font-size:13px; color:var(--slate-400);">
-                Ditulis oleh <strong>Andi Setiawan, S.Kom.</strong> (Senior PM) &bull; Estimasi Baca: 10 Menit
+            <div data-pencil-name="Cover Headline"
+                style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 18px; font-weight: 800; letter-spacing: 0px; line-height: 1.3; text-align: left;'>
+                Panduan Praktis Handover Desain MVP ke Tim Software Engineering
+            </div>
+            <div data-pencil-name="Cover Meta"
+                style='box-sizing: border-box; color: #94a3b8; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0px; line-height: normal; text-align: left;'>
+                Ditulis oleh Andi Setiawan (Senior PM) • Diperbarui Oktober 2026 • 10 Menit Waktu Baca
             </div>
         </div>
 
-        <!-- Article Body Content -->
-        <div style="padding:32px 36px; font-size:14px; color:var(--color-text-body); line-height:1.7;">
-            <h3 style="font-size:16px; font-weight:800; color:var(--color-text-main); margin-bottom:8px;">
-                1. Mengapa Handover Desain Menjadi Titik Kritis?
-            </h3>
-            <p style="margin-bottom:18px;">
-                Banyak kegagalan rilis MVP bukan disebabkan oleh minimnya ide, melainkan adanya celah komunikasi (<em>gap</em>) antara spesifikasi desain dan pemahaman tim perekayasa (<em>software engineers</em>). Handover yang efektif memastikan setiap alur dan status antarmuka dapat diimplementasikan tanpa ambiguitas.
-            </p>
+        <!-- Article Body Container (535px with overflow scroll) -->
+        <div data-pencil-name="Article Body Container"
+            style="align-items: flex-start; background-color: #ffffff; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 12px; height: 535px; justify-content: flex-start; padding: 18px 24px; width: 100%; overflow-y: auto;">
+            
+            <!-- Section 1 -->
+            <div data-pencil-name="Section 1 Group"
+                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 4px; height: fit-content; justify-content: flex-start; width: 100%;">
+                <div data-pencil-name="Sec 1 Title"
+                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap;'>
+                    1. Mengapa Handover Desain Menjadi Titik Kritis?
+                </div>
+                <div data-pencil-name="Sec 1 Body"
+                    style='box-sizing: border-box; color: #475467; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0px; line-height: 17px; text-align: left; width: 100%;'>
+                    Banyak proyek MVP mengalami keterlambatan peluncuran bukan karena kendala teknis
+                    penulisan kode, melainkan karena ambiguitas spesifikasi desain. Handover yang
+                    efektif bukan sekadar memberikan tautan Figma, melainkan menyelaraskan pemahaman
+                    bersama mengenai user flow, edge cases, dan prioritas backlog pengembangan.
+                </div>
+            </div>
 
-            <h3 style="font-size:16px; font-weight:800; color:var(--color-text-main); margin-bottom:8px;">
-                2. Checklist Esensial Sebelum Sesi Walkthrough:
-            </h3>
-            <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:20px;">
-                <div style="display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--slate-100); border-radius:var(--radius-md);">
-                    <span style="color:var(--color-primary);"><?= icon('check-circle', 'icon-sm'); ?></span>
-                    <span><strong>Design Tokens &amp; Komponen:</strong> Seluruh warna, typography scale, dan button variants telah dipetakan ke CSS tokens.</span>
+            <!-- Section 2 -->
+            <div data-pencil-name="Section 2 Group"
+                style="align-items: flex-start; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; width: 100%;">
+                <div data-pencil-name="Sec 2 Title"
+                    style='box-sizing: border-box; color: #192a3d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap;'>
+                    2. Checklist Esensial Sebelum Sesi Walkthrough
                 </div>
-                <div style="display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--slate-100); border-radius:var(--radius-md);">
-                    <span style="color:var(--color-primary);"><?= icon('check-circle', 'icon-sm'); ?></span>
-                    <span><strong>User Story &amp; Kriteria Penerimaan:</strong> Kriteria DoD (Definition of Done) tercantum jelas per modul.</span>
+                
+                <!-- Check Card 1 -->
+                <div data-pencil-name="Check Card 1"
+                    style="align-items: center; background-color: #f8fafc; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #e2e8f0; padding: 8px 12px; width: 100%;">
+                    <div data-pencil-name="Num Circle 1"
+                        style="align-items: center; background-color: #2872fa; border-radius: 11px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; height: 22px; justify-content: center; width: 22px;">
+                        <div data-pencil-name="Num"
+                            style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 700; line-height: normal; text-align: left; white-space: nowrap;'>
+                            1
+                        </div>
+                    </div>
+                    <div data-pencil-name="Check Desc 1"
+                        style='box-sizing: border-box; color: #334155; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 500; line-height: 15px; text-align: left;'>
+                        Design Token &amp; Komponen: Pastikan warna, tipografi, dan padding sudah terstandarisasi, serta komponen yang siap dibuat diberi label 'Ready for Dev' di Figma.
+                    </div>
                 </div>
-                <div style="display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--slate-100); border-radius:var(--radius-md);">
-                    <span style="color:var(--color-primary);"><?= icon('check-circle', 'icon-sm'); ?></span>
-                    <span><strong>Exception Flows &amp; Edge Cases:</strong> Status loading, kosong (empty state), dan pesan kegagalan telah dirancang.</span>
+
+                <!-- Check Card 2 -->
+                <div data-pencil-name="Check Card 2"
+                    style="align-items: center; background-color: #f8fafc; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #e2e8f0; padding: 8px 12px; width: 100%;">
+                    <div data-pencil-name="Num Circle 2"
+                        style="align-items: center; background-color: #2872fa; border-radius: 11px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; height: 22px; justify-content: center; width: 22px;">
+                        <div data-pencil-name="Num"
+                            style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 700; line-height: normal; text-align: left; white-space: nowrap;'>
+                            2
+                        </div>
+                    </div>
+                    <div data-pencil-name="Check Desc 2"
+                        style='box-sizing: border-box; color: #334155; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 500; line-height: 15px; text-align: left;'>
+                        User Story &amp; Kriteria Penerimaan: Cantumkan skenario interaksi utama, validasi input formulir (error states), serta kondisi empty state untuk setiap layar MVP.
+                    </div>
+                </div>
+
+                <!-- Check Card 3 -->
+                <div data-pencil-name="Check Card 3"
+                    style="align-items: center; background-color: #f8fafc; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 10px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #e2e8f0; padding: 8px 12px; width: 100%;">
+                    <div data-pencil-name="Num Circle 3"
+                        style="align-items: center; background-color: #2872fa; border-radius: 11px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; height: 22px; justify-content: center; width: 22px;">
+                        <div data-pencil-name="Num"
+                            style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 700; line-height: normal; text-align: left; white-space: nowrap;'>
+                            3
+                        </div>
+                    </div>
+                    <div data-pencil-name="Check Desc 3"
+                        style='box-sizing: border-box; color: #334155; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 500; line-height: 15px; text-align: left;'>
+                        Dokumentasi Edge Cases &amp; Exception: Jelaskan apa yang terjadi saat koneksi internet lambat, sesi login kedaluwarsa, atau pengguna memasukkan format data yang tidak valid.
+                    </div>
                 </div>
             </div>
 
             <!-- Insight Callout Box -->
-            <div style="background-color:var(--color-primary-soft); border-left:4px solid var(--color-primary); padding:14px 18px; border-radius:0 var(--radius-md) var(--radius-md) 0; margin-bottom:24px;">
-                <strong style="color:var(--color-primary-dark);">💡 Insight PM:</strong>
-                <p style="font-size:13px; color:var(--color-text-main); margin:4px 0 0;">
-                    Jadwalkan sesi walkthrough langsung selama 30 menit bersama Tech Lead untuk meninjau kelayakan teknis sebelum sprint pengerjaan dimulai.
-                </p>
-            </div>
-
-            <!-- Sentinel End of Article Confirmation -->
-            <div style="background-color:var(--emerald-50); border:1px solid var(--emerald-border); border-radius:var(--radius-md); padding:14px 18px; display:flex; justify-content:space-between; align-items:center;">
-                <div style="display:flex; align-items:center; gap:10px; color:#064e3b; font-weight:700;">
-                    <?= icon('check-circle', 'icon-sm', 'style="color:var(--emerald);"'); ?>
-                    <span>Anda telah mencapai akhir artikel (Syarat BRD Selesai Terpenuhi)</span>
+            <div data-pencil-name="Insight Callout Box"
+                style="align-items: flex-start; background-color: #f0fdf4; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: column; flex-shrink: 0; gap: 3px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #bbf7d0; padding: 10px 14px; width: 100%;">
+                <div data-pencil-name="Insight Header"
+                    style="align-items: center; box-sizing: border-box; display: flex; flex-direction: row; gap: 6px; height: fit-content; justify-content: flex-start;">
+                    <svg viewBox="0 0 14 14" style="height: 14px; width: 14px; flex-shrink: 0;" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.625 12.6875q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672l-4.375 0q-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672l4.375 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z m2.1875-7q0 1.09375-0.49219 2.10547-0.49219 1.01172-1.36719 1.66797-0.32813 0.27344-0.32812 0.71094l0 0.32812q0 0.38281-0.24609 0.62891-0.24609 0.24609-0.62891 0.24609l-3.5 0q-0.38281 0-0.62891-0.24609-0.24609-0.24609-0.24609-0.62891l0-0.32813q0-0.4375-0.32813-0.71093-0.875-0.65625-1.36718-1.64063-0.49219-0.98438-0.49219-2.13281 0-1.25781 0.62891-2.35156 0.62891-1.09375 1.69531-1.75 1.06641-0.65625 2.37891-0.71094 0.98438 0 1.88671 0.35547 0.90234 0.35547 1.58594 1.01172 0.68359 0.65625 1.06641 1.55859 0.38281 0.90234 0.38281 1.88672z m-0.875 0q0-0.82031-0.30078-1.53125-0.30078-0.71094-0.875-1.28516-0.57422-0.57422-1.3125-0.84765-0.73828-0.27344-1.55859-0.27344-1.03906 0-1.91407 0.54688-0.875 0.54688-1.39453 1.44921-0.51953 0.90234-0.51953 1.94141 0 0.92969 0.41016 1.75 0.41016 0.82031 1.12109 1.36719 0.27344 0.21875 0.46484 0.60156 0.19141 0.38281 0.19141 0.76563l0 0.32812 3.5 0 0-0.32812q0-0.38281 0.19141-0.76563 0.19141-0.38281 0.51953-0.60156 0.71094-0.60156 1.09375-1.39453 0.38281-0.79297 0.38281-1.72266z" fill="#16a34a"></path>
+                    </svg>
+                    <div data-pencil-name="Insight Title"
+                        style='box-sizing: border-box; color: #15803d; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 700; white-space: nowrap;'>
+                        💡 Rekomendasi Eksekusi: Jadwalkan Sesi Walkthrough 30 Menit
+                    </div>
                 </div>
-                <span class="badge badge-emerald">Modul 4 Selesai 100% ✓</span>
+                <div data-pencil-name="Insight Desc"
+                    style='box-sizing: border-box; color: #166534; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 11px; font-weight: 500; line-height: 15px; text-align: left; width: 100%;'>
+                    Selalu jadwalkan sesi Q&amp;A sinkron selama 30 menit bersama Tech Lead dan
+                    Frontend Engineer sebelum sprint dimulai. Sesi tatap muka ini memangkas hingga 70%
+                    kesalahpahaman spesifikasi saat development berlangsung.
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- 3. Action Bar matching design.pen DSG:KHvml -->
-    <div class="card" style="padding:14px 20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-        <a href="<?= base_url('learn/digital-product-fundamentals/m/2'); ?>" class="btn btn-secondary btn-sm">
-            <?= icon('arrow-left', 'icon-xs'); ?>
-            <span>Kembali ke Dokumen PDF</span>
+    <!-- 3. Action Bar -->
+    <div data-pencil-name="Action Bar"
+        style="align-items: center; background-color: #ffffff; border-radius: 12px; box-sizing: border-box; display: flex; flex-direction: row; flex-wrap: wrap; flex-shrink: 0; gap: 12px; height: fit-content; justify-content: space-between; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 10px 16px; width: 100%;">
+        <a href="<?php echo base_url('learn/' . $course_slug . '/quiz/2'); ?>" data-pencil-name="Prev Quiz 2 Btn"
+            style="text-decoration:none; align-items: center; background-color: #f8fafc; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; outline-offset: -0.5px; outline: 1px solid #dfe3ea; padding: 8px 14px; width: fit-content;">
+            <svg viewBox="0 0 14 14" style="height: 13px; width: 13px; flex-shrink: 0;" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.25 7q0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672l-8.58594 0 3.22657 3.17188q0.10938 0.16406 0.10937 0.32812 0 0.16406-0.13672 0.30078-0.13672 0.13672-0.30078 0.13672-0.16406 0-0.32812-0.10937l-3.9375-3.9375q-0.10938-0.16406-0.10938-0.32813 0-0.16406 0.10938-0.32812l3.9375-3.9375q0.16406-0.10938 0.32812-0.08204 0.16406 0.02734 0.27344 0.13672 0.10938 0.10938 0.13672 0.27344 0.02734 0.16406-0.08203 0.32813l-3.22657 3.17187 8.58594 0q0.16406 0 0.30078 0.13672 0.13672 0.13672 0.13672 0.30078z" fill="#475467"></path>
+            </svg>
+            <div data-pencil-name="Prev Text"
+                style='box-sizing: border-box; color: #475467; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap;'>
+                Kembali ke Pop-up Quiz 2
+            </div>
         </a>
 
-        <a href="<?= base_url('courses/digital-product-fundamentals'); ?>" class="btn btn-primary btn-sm">
-            <span>Selesaikan Modul 4 &amp; Buka Modul 5</span>
-            <?= icon('arrow-right', 'icon-xs'); ?>
+        <a href="<?php echo base_url('courses/' . $course_slug); ?>" data-pencil-name="Next Modul Btn"
+            style="text-decoration:none; align-items: center; background-color: #2872fa; border-radius: 8px; box-sizing: border-box; display: flex; flex-direction: row; flex-shrink: 0; gap: 6px; height: fit-content; justify-content: flex-start; padding: 8px 20px; width: fit-content;">
+            <div data-pencil-name="Next Text"
+                style='box-sizing: border-box; color: #ffffff; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0px; line-height: normal; text-align: left; white-space: nowrap;'>
+                Selesaikan Modul 4 &amp; Buka Modul 5
+            </div>
+            <svg viewBox="0 0 14 14" style="height: 13px; width: 13px; flex-shrink: 0;" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.14063 7.32813l-3.9375 3.9375q-0.16406 0.10938-0.32813 0.10937-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.10938-0.32812l3.22656-3.17188-8.58594 0q-0.16406 0-0.30078-0.13672-0.13672-0.13672-0.13672-0.30078 0-0.16406 0.13672-0.30078 0.13672-0.13672 0.30078-0.13672l8.58594 0-3.22657-3.17188q-0.10938-0.16406-0.08203-0.32812 0.02734-0.16406 0.13672-0.27344 0.10938-0.10938 0.27344-0.13672 0.16406-0.02734 0.32812 0.08203l3.9375 3.9375q0.10938 0.16406 0.10938 0.32813 0 0.16406-0.10938 0.32812z" fill="#ffffff"></path>
+            </svg>
         </a>
+    </div>
+
     </div>
 </div>

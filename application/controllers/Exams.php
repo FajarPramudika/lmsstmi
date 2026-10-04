@@ -16,11 +16,12 @@ class Exams extends User_Controller {
             'page_title'   => 'Final Assessment: Digital Product Management (DP-101)',
             'course_title' => 'Digital Product Fundamentals',
             'course_code'  => 'DP-101',
-            'course_slug'  => 'dp-101',
+            'course_slug'  => 'digital-product-fundamentals',
             'exam_id'      => (int)$exam_id,
+            'active_menu'  => 'courses',
             'current_user' => $this->current_user
         );
 
-        $this->layout->render('exam/attempt', $data, 'learn');
+        $this->layout->render('exam/attempt', $data, 'app');
     }
 }

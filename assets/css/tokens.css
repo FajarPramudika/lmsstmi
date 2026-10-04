@@ -123,8 +123,8 @@
   --header-height: 70px;
   --learn-header-height: 60px;
   --playlist-drawer-width: 396px;
-  --learn-workspace-width: 976px;
-  --container-max-app: 1116px;
+  --learn-workspace-width: 1056px;
+  --container-max-app: 1440px;
   --container-max-public: 1280px;
 
   /* Transitions */

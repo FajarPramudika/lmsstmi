@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+    defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <div style="max-width:1200px; margin:32px auto; padding:0 24px; display:flex; flex-direction:column; gap:36px;">
     <!-- Styleguide Header -->
@@ -63,12 +63,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             3. Buttons &amp; Action States
         </h2>
         <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; background:#ffffff; padding:20px; border-radius:12px; border:1px solid #dfe3ea;">
-            <?= ui_button('Primary Button', 'primary', 'md', 'caret-right', false); ?>
-            <?= ui_button('Secondary Button', 'secondary', 'md', 'download-simple', false); ?>
-            <?= ui_button('Emerald Action', 'emerald', 'md', 'check-circle', false); ?>
-            <?= ui_button('Danger Button', 'danger', 'md', 'x-circle', false); ?>
-            <?= ui_button('Ghost Button', 'ghost', 'md'); ?>
-            <?= ui_button('Small Button', 'primary', 'sm', 'play'); ?>
+            <?php echo ui_button('Primary Button', 'primary', 'md', 'caret-right', false); ?>
+            <?php echo ui_button('Secondary Button', 'secondary', 'md', 'download-simple', false); ?>
+            <?php echo ui_button('Emerald Action', 'emerald', 'md', 'check-circle', false); ?>
+            <?php echo ui_button('Danger Button', 'danger', 'md', 'x-circle', false); ?>
+            <?php echo ui_button('Ghost Button', 'ghost', 'md'); ?>
+            <?php echo ui_button('Small Button', 'primary', 'sm', 'play'); ?>
             <button class="btn btn-primary" disabled>Disabled State</button>
         </div>
     </section>
@@ -79,11 +79,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             4. Badges &amp; Status Pills
         </h2>
         <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; background:#ffffff; padding:20px; border-radius:12px; border:1px solid #dfe3ea;">
-            <?= ui_badge('Sedang Berjalan (60%)', 'primary', 'bolt'); ?>
-            <?= ui_badge('Selesai ✓ (100%)', 'emerald', 'check-circle'); ?>
-            <?= ui_badge('Terkunci 🔒', 'neutral', 'lock'); ?>
-            <?= ui_badge('Ragu-ragu (1)', 'amber', 'flag'); ?>
-            <?= ui_badge('Gagal / Expired', 'danger', 'x-circle'); ?>
+            <?php echo ui_badge('Sedang Berjalan (60%)', 'primary', 'bolt'); ?>
+            <?php echo ui_badge('Selesai ✓ (100%)', 'emerald', 'check-circle'); ?>
+            <?php echo ui_badge('Terkunci', 'neutral', 'lock'); ?>
+            <?php echo ui_badge('Ragu-ragu (1)', 'amber', 'flag'); ?>
+            <?php echo ui_badge('Gagal / Expired', 'danger', 'x-circle'); ?>
             <span class="badge badge-purple">PRODUCT MANAGEMENT</span>
             <span class="badge badge-rose">DESIGN &amp; CREATIVE</span>
         </div>
@@ -100,14 +100,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <span>Progress Sedang Berjalan (Blue): 60%</span>
                     <span>3 dari 5 Modul</span>
                 </div>
-                <?= ui_progress(60, 'sm'); ?>
+                <?php echo ui_progress(60, 'sm'); ?>
             </div>
             <div>
                 <div style="display:flex; justify-content:space-between; font-size:12px; font-weight:700; margin-bottom:4px;">
                     <span>Progress Tuntas Penuh (Emerald): 100% Selesai</span>
                     <span style="color:var(--emerald);">Lulus Ujian &amp; Terbit Sertifikat</span>
                 </div>
-                <?= ui_progress(100, 'sm'); ?>
+                <?php echo ui_progress(100, 'sm'); ?>
             </div>
         </div>
     </section>
@@ -135,7 +135,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="input-with-icon" style="position:relative;">
                     <input type="password" id="sg_pwd" class="form-input" value="Rahasia123!">
                     <button type="button" class="btn-password-toggle" data-target="sg_pwd" style="position:absolute; right:12px; top:50%; transform:translateY(-50%); background:none; border:none; color:#64748b; cursor:pointer;">
-                        <?= icon('eye', 'icon-xs'); ?>
+                        <?php echo icon('eye', 'icon-xs'); ?>
                     </button>
                 </div>
             </div>
@@ -148,9 +148,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             7. Alert Callouts
         </h2>
         <div style="display:flex; flex-direction:column; gap:10px;">
-            <?= ui_alert('<strong>Aturan Belajar Bertahap:</strong> Video materi harus ditonton minimal 95% dan kuis checkpoint wajib dijawab benar sebelum modul selanjutnya terbuka.', 'info', 'info'); ?>
-            <?= ui_alert('<strong>Ujian Akhir:</strong> Waktu tersisa 24 menit 18 detik. Jawaban otomatis tersimpan di cloud.', 'warning', 'clock-countdown'); ?>
-            <?= ui_alert('<strong>Selamat!</strong> Anda telah menyelesaikan 100% modul dan lulus Ujian Akhir dengan nilai 85/100.', 'success', 'check-circle'); ?>
+            <?php echo ui_alert('<strong>Aturan Belajar Bertahap:</strong> Video materi harus ditonton minimal 95% dan kuis checkpoint wajib dijawab benar sebelum modul selanjutnya terbuka.', 'info', 'info'); ?>
+            <?php echo ui_alert('<strong>Ujian Akhir:</strong> Waktu tersisa 24 menit 18 detik. Jawaban otomatis tersimpan di cloud.', 'warning', 'clock-countdown'); ?>
+            <?php echo ui_alert('<strong>Selamat!</strong> Anda telah menyelesaikan 100% modul dan lulus Ujian Akhir dengan nilai 85/100.', 'success', 'check-circle'); ?>
         </div>
     </section>
 </div>

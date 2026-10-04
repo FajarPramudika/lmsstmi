@@ -1,0 +1,446 @@
+Business Requirements Document (BRD)
+MVP Digital Learn Platform
+1. Ringkasan & Tujuan MVP
+Digital Learn Platform MVP memungkinkan peserta belajar secara terstruktur lewat course dan modul,
+mengikuti ujian, lalu memperoleh sertifikat digital yang keasliannya dapat diverifikasi.
+MVP melayani dua sisi: User/Peserta dan Admin/Pengelola. Materi dibuka bertahap (progressive
+learning): peserta harus menyelesaikan tahap sebelumnya sebelum lanjut ke tahap berikutnya.
+MVP dibuat untuk memvalidasi proses pembelajaran digital dari awal sampai akhir:
+Registration → Learning → Assessment → Certification → Verification
+
+Tujuan MVP
+1.​ Menyediakan pengalaman pembelajaran digital end-to-end.
+2.​ Memungkinkan admin membuat dan mengelola course serta materi.
+3.​ Memastikan peserta mengikuti materi secara berurutan.
+4.​ Mengukur pemahaman peserta melalui ujian.
+5.​ Menerbitkan sertifikat secara otomatis kepada peserta yang memenuhi persyaratan.
+6.​ Menyediakan mekanisme verifikasi keaslian sertifikat.
+7.​ Menyediakan monitoring dasar bagi admin terhadap aktivitas dan progress peserta.
+
+2. Scope MVP & User Role
+2.1 Dalam Scope
+Sisi
+
+Fitur
+
+Peserta: akun
+
+Registrasi, login/logout, forgot/reset password, profil user
+
+Peserta: belajar
+
+Melihat daftar dan detail course, enroll, mengakses modul, melihat
+progress, menyelesaikan materi, akses modul bertahap, menjawab quiz
+
+Peserta: evaluasi
+
+Mengikuti ujian, melihat hasil ujian, mengulang ujian sesuai aturan
+
+Peserta: sertifikat
+
+Mendapatkan, melihat/mengunduh sertifikat, melakukan verifikasi sertifikat
+
+Admin
+
+Login admin, dashboard, manajemen user, course, modul, materi, ujian, dan
+sertifikat, monitoring progress peserta dan hasil ujian
+
+2.2 Di Luar Scope
+Kelompok
+
+Fitur
+
+Monetisasi dan
+marketplace
+
+Payment gateway, course berbayar, marketplace, instructor eksternal,
+revenue sharing, subscription, coupon/voucher, affiliate
+
+Engagement
+
+Rating/review, live class, discussion/forum, gamification
+
+Platform
+
+Aplikasi mobile native, SSO, integrasi sistem akademik, corporate account
+
+Teknologi lanjutan
+
+AI, proctoring, advanced analytics
+
+2.3 User Role
+MVP hanya memiliki dua role:
+•​ User/Peserta: pembelajar.
+•​ Admin: pengelola platform dan konten pembelajaran.
+
+3. Alur Pengguna
+Peserta bergerak dari registrasi ke enrollment, belajar modul demi modul, lalu ujian akhir, sertifikat, dan
+verifikasi.
+
+4. Akun, Profil, dan Katalog Course
+Registration. Sistem memungkinkan user membuat akun.
+•​
+•​
+•​
+•​
+
+Data: nama lengkap, email, password, konfirmasi password.
+Email harus unik.
+Password harus memenuhi minimum security requirement.
+User menyetujui terms/privacy policy apabila diberlakukan.
+
+Login. User login dengan email dan password. Sistem menyediakan forgot password, reset password,
+dan logout.
+User Profile. User dapat melihat dan mengubah data profil: nama lengkap, email, dan foto profil. Nama
+pada sertifikat berasal dari data profil.
+Course Catalog. User dapat melihat daftar course yang tersedia dan membuka halaman detail sebelum
+enrollment. Setiap course minimal memiliki judul, thumbnail, deskripsi singkat, deskripsi lengkap, jumlah
+modul, estimasi durasi, dan status course (In Progress/Completed).
+Course Detail. Halaman detail menampilkan judul, deskripsi, tujuan pembelajaran, instructor/pengelola,
+daftar modul, jumlah modul, estimasi durasi, informasi ujian, dan informasi sertifikat. Modul yang belum
+dapat diakses ditampilkan sebagai locked.
+Enrollment. User dapat mendaftarkan diri ke course. Setelah enrollment berhasil, Module 1 terbuka
+(unlocked).
+
+5. Pembelajaran Bertahap
+Learning Module. Course terdiri dari satu atau lebih modul. Setiap modul memiliki judul, deskripsi,
+urutan, materi, durasi, dan status completion. Jenis materi MVP: video, PDF/document, dan text/article.
+Material Pop-up Quiz. Sistem menampilkan pop-up quiz pilihan ganda pada titik (checkpoint) yang
+ditentukan admin di dalam sebuah materi. Satu materi dapat memiliki lebih dari satu pop-up quiz.
+Pop-up tidak dapat ditutup atau dilewati tanpa menjawab dengan benar.
+Progressive Learning. Modul dibuka bertahap. Setelah Module 1 selesai, Module 2 terbuka; modul lain
+tetap locked.
+Kondisi
+
+Module 1
+
+Module 2
+
+Module 3
+
+Module 4
+
+Awal
+
+OPEN
+
+LOCKED
+
+LOCKED
+
+LOCKED
+
+Module 1 selesai
+
+COMPLETED
+
+OPEN
+
+LOCKED
+
+LOCKED
+
+Ketentuan:
+•​
+•​
+•​
+•​
+
+User tidak dapat membuka modul yang masih locked.
+User tidak dapat melewati urutan modul.
+Status completion disimpan oleh sistem.
+User dapat mengakses kembali modul yang telah diselesaikan.
+
+Material Completion. Sistem menentukan apakah sebuah materi telah selesai.
+Jenis materi
+
+Aturan selesai (MVP)
+
+Video
+
+Ditonton minimal 95% durasi
+
+PDF/Document
+
+User membuka/mengakses dokumen sampai dianggap selesai
+
+Text
+
+User membuka materi dan mencapai bagian akhir konten
+
+Learning Progress. Sistem mencatat progress user. Progress course dihitung dari modul/materi yang
+telah diselesaikan, dan dapat dilihat dari dashboard, halaman course, dan halaman modul.
+Contoh: Course Digital Product Fundamentals, jika Module 1–3 selesai, Module 4 terbuka, dan Module 5
+terkunci, progress course adalah 60%.
+
+6. Ujian & Sertifikat
+Final Examination. Setelah seluruh modul selesai, user dapat mengikuti ujian akhir pilihan ganda. Ujian
+memiliki judul, daftar soal, durasi pengerjaan, pilihan jawaban, jawaban benar, passing grade, dan
+jumlah attempt.
+Examination Rules. Admin menentukan passing grade, jumlah soal, durasi pengerjaan, dan jumlah
+kesempatan ujian/attemp. Jika waktu habis, sistem otomatis mengakhiri dan mengumpulkan ujian.
+Peserta dinyatakan lulus apabila nilai mencapai atau melebihi passing grade sesuai attemp yang dimiliki.
+Nilai yang diambil adalah nilai attemp tertinggi.
+Contoh:
+Durasi: 30 menit
+Passing grade: 70
+Maximum attempt: 3 kali
+Attempt 1 → Score 60 → Failed
+Attempt 2 → Score 65 → Failed
+Attempt 3 → Score 80 → Passed → Certificate
+Examination Result. Setelah ujian selesai, user melihat nilai, status kelulusan, jumlah benar, jumlah
+salah, dan waktu pengerjaan (jika digunakan). Contoh: skor 85 dengan passing 70 berstatus PASSED dan
+sertifikat langsung tersedia.
+Certificate Generation. Sertifikat diterbitkan otomatis apabila user menyelesaikan seluruh modul dan
+lulus ujian. Informasi sertifikat: nama peserta, nama course, nama penerbit, tanggal penerbitan,
+Certificate ID, QR Code, dan Verification URL.
+Certificate ID. Setiap sertifikat memiliki ID unik, misalnya DL-2026-000001. ID tidak boleh sama antar
+sertifikat dan menjadi identifier untuk verifikasi.
+
+Certificate Verification. Pihak lain dapat memverifikasi sertifikat tanpa login.
+•​ Jika valid, halaman menampilkan: valid certificate, nama peserta, nama course, tanggal
+penerbitan, Certificate ID, dan penerbit.
+•​ Jika tidak valid, halaman menampilkan: Certificate not found / invalid certificate.
+
+7. Fitur Admin
+Admin Dashboard. Dashboard menampilkan informasi dasar:
+Kategori
+
+Metrik
+
+User
+
+Total user, user baru
+
+Course
+
+Total course, course aktif, total enrollment
+
+Learning
+
+Total peserta aktif, course completion
+
+Assessment
+
+Total ujian, pass rate
+
+Certificate
+
+Total certificate issued
+
+Course Management. Admin dapat create, view, edit, publish, unpublish, dan archive course. Status
+course: Draft → Published → Archived. Course hanya dapat diikuti user apabila berstatus Published.
+Module Management. Admin dapat create, edit, dan delete module, mengatur urutan module,
+menambahkan materi, dan mengatur completion requirement. Contoh urutan: Introduction, Basic
+Concept, Case Study, Exercise, Final Assessment.
+Material Management. Admin dapat upload video, upload PDF/document, membuat text content,
+mengedit dan menghapus material, serta mengatur urutan material. Status materi: Draft atau Published.
+
+Examination Management. Admin dapat membuat ujian, menambah, mengubah, dan menghapus soal,
+menentukan jawaban benar, mengatur passing grade, mengatur durasi pengerjaan, dan mengatur
+jumlah attempt.
+Pop-up Quiz Management. Admin dapat mengatur (menambah/menghapus/mengedit) pop-up quiz
+pada setiap materi dan mengatur attemp.
+Participant Monitoring. Admin melihat progress peserta, dengan filter berdasarkan course, peserta,
+status, progress, nilai seluruh attemp, dan status sertifikat (-/Issued)
+Contoh tampilan:
+Peserta
+
+Course
+
+Progress
+
+Status
+
+Nilai
+
+Sertifikat
+
+User A
+
+Course A
+
+100%
+
+Completed
+
+30/70/85
+
+Issued
+
+User B
+
+Course A
+
+75%
+
+In Progress
+
+–
+
+–
+
+User C
+
+Course A
+
+100%
+
+Failed
+
+60/63/65
+
+–
+
+Certificate Management. Admin melihat seluruh sertifikat yang diterbitkan (Certificate ID, nama peserta,
+course, tanggal penerbitan, status) dan dapat melakukan tindakan sesuai permission: view, download,
+dan revoke.
+
+8. Non-Functional Requirements
+Aspek
+
+Requirement
+
+Security
+
+Password memakai secure hashing; role-based access; module locked tidak
+dapat diakses lewat URL/API langsung; hasil ujian tidak dapat diubah lewat
+client-side manipulation;
+
+Performance
+
+Login, course browsing, loading material, progress update, exam submission,
+dan certificate generation berjalan dengan response time yang dapat diterima
+pada kondisi normal
+
+Availability
+
+Platform dapat digunakan online sesuai target availability yang ditetapkan
+untuk MVP
+
+Scalability
+
+Desain memungkinkan penambahan jumlah user, course, module, material,
+exam, dan certificate tanpa perubahan fundamental pada core system
+
+9. Acceptance Criteria
+MVP berhasil apabila end-to-end flow berikut berjalan:
+No
+
+Skenario
+
+Kriteria
+
+1
+2
+
+Registration
+Course
+
+User dapat membuat akun dan login.
+Admin dapat membuat dan mem-publish course; user dapat melihat
+dan mengikuti course tersebut.
+User dapat mengakses Module 1; Module 2 tetap locked sampai Module
+1 selesai, lalu terbuka.
+
+3
+
+Progressive
+Learning
+
+4
+
+Pop-up
+Peserta
+
+Quiz Pop-up muncul di posisi yang diatur admin (awal, tengah, atau akhir).
+Peserta tidak dapat melewati checkpoint sebelum menjawab benar.
+
+5
+
+Pop-up
+Attempt
+
+Quiz Mode tanpa attempt: mengulang sampai benar. Mode dengan attempt:
+attempt berkurang tiap salah dan, jika habis, peserta mengulang materi.
+
+6
+
+Exam
+
+7
+
+Certificate
+
+8
+
+Verification
+
+9
+
+Admin Monitoring
+
+10
+
+Course
+Management
+
+Admin dapat create, view, edit, publish, unpublish, dan archive course;
+course berstatus Draft tidak dapat diikuti user.
+
+11
+
+Module & Material
+Management
+
+Admin dapat membuat, mengubah, dan menghapus module serta
+material (video, PDF/document, text), mengatur urutan, dan mengatur
+completion requirement; urutan yang diatur menjadi urutan akses
+peserta.
+
+12
+
+Examination
+Management
+
+Admin dapat membuat ujian, menambah, mengubah, dan menghapus
+soal, menentukan jawaban benar, serta mengatur passing grade, jumlah
+soal, jumlah attempt, dan durasi pengerjaan.
+
+13
+
+Pop-up
+Quiz Admin dapat membuat, mengubah, menghapus quiz dan soal, mengatur
+Management
+posisi, jawaban benar, mode attempt, dan jumlah attempt per quiz.
+
+14
+
+Certificate
+Management
+
+Setelah seluruh module selesai, user dapat mengikuti final exam; sistem
+menghitung nilai otomatis.
+User yang lulus mendapat certificate otomatis; user yang tidak lulus
+tidak mendapatkannya.
+Certificate memiliki Certificate ID dan dapat diverifikasi melalui halaman
+publik.
+Admin dapat melihat user, course, enrollment, progress, exam result,
+dan certificate.
+
+Admin dapat melihat daftar certificate (Certificate ID, peserta, course,
+tanggal penerbitan, status) dan melakukan view, download, atau revoke
+sesuai permission.
+
+No
+15
+
+Skenario
+Dashboard
+
+Kriteria
+Dashboard menampilkan total user, user baru, total course, course aktif,
+total enrollment, peserta aktif, course completion, total ujian, pass rate,
+dan total certificate issued.
+
+
