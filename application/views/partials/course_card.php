@@ -32,7 +32,7 @@ $img_banner = base_url('assets/img/mountain.png');
 
 <?php if ($variant === 'enrolled'): ?>
     <!-- Enrolled Variant: Matches my-course.html & user-dashboard.html -->
-    <div class="enrolled-card">
+    <div class="enrolled-card" data-status="<?= e($status); ?>">
         <div class="enrolled-thumb" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%), url('<?= e($img_banner); ?>');">
             <div class="enrolled-thumb-top">
                 <span class="enrolled-cat-pill"><?= e($category); ?></span>

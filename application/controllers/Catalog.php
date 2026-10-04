@@ -24,7 +24,7 @@ class Catalog extends User_Controller {
     public function detail($slug = 'dp-101') {
         $data = array(
             'page_title'   => 'Digital Product Fundamentals (DP-101)',
-            'active_menu'  => 'my_courses',
+            'active_menu'  => 'courses',
             'current_user' => $this->current_user,
             'slug'         => $slug
         );

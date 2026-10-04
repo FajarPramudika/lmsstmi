@@ -19,16 +19,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?= base_url('assets/css/layout.css'); ?>">
 </head>
 <body style="background-color: var(--bg-page-user);">
-    <a href="#learn-workspace" class="skip-link">Lewati ke workspace belajar</a>
+    <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
 
-    <div class="learn-shell">
-        <!-- Reusable Classroom Header (60px) -->
-        <?php $this->load->view('partials/learn_topbar'); ?>
+    <div class="app-shell">
+        <!-- Reusable Sidebar Component -->
+        <?php $this->load->view('partials/sidebar_user'); ?>
 
-        <!-- Split Learning Canvas (Drawer + Workspace) -->
-        <main id="learn-workspace" class="learn-container">
-            <?= isset($content) ? $content : ''; ?>
-        </main>
+        <div class="app-main-area">
+            <!-- Reusable Topbar Component -->
+            <?php $this->load->view('partials/topbar'); ?>
+
+            <!-- Main App Content Canvas -->
+            <main id="main-content" class="app-canvas">
+                <?= isset($content) ? $content : ''; ?>
+            </main>
+        </div>
     </div>
 
     <!-- Toast Notifications Container -->

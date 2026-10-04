@@ -15,14 +15,14 @@ $verify_url = base_url('verify/' . $cert_no);
 <div class="cert-canvas-wrap">
     <div class="cert-inner-bezel">
         <!-- Certificate Header Row -->
-        <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div style="display:flex; justify-content:space-between; align-items:center; width:100%;">
             <div style="display:flex; align-items:center; gap:8px;">
-                <div class="brand-emblem" style="width:28px; height:28px; font-size:11px; border-radius:6px;">DL</div>
-                <div style="font-size:11px; font-weight:800; color:var(--color-text-main); letter-spacing:0.5px;">
-                    DIGITAL LEARN PLATFORM • STMI
+                <div class="brand-emblem" style="width:28px; height:28px; font-size:10px; font-weight:800; border-radius:6px; box-shadow:none;">DL</div>
+                <div style="font-size:10px; font-weight:800; color:#1e3a8a; letter-spacing:0.8px;">
+                    DIGITAL LEARN PLATFORM • POLITEKNIK STMI JAKARTA
                 </div>
             </div>
-            <div style="font-size:12px; font-weight:800; color:var(--color-primary); letter-spacing:0.5px;">
+            <div style="background-color:#f8fafc; border-radius:6px; border:1px solid #e2e8f0; padding:4px 10px; font-size:11px; font-weight:700; color:#475467;">
                 NO: <?= e($cert_no); ?>
             </div>
         </div>

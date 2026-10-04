@@ -33,10 +33,11 @@ class Learn extends User_Controller {
             'course_slug'         => $course_slug,
             'module_title'        => 'Modul 4: User Journey Mapping',
             'active_material_id'  => (int)$material_id,
+            'active_menu'         => 'courses',
             'current_user'        => $this->current_user
         );
 
-        $this->layout->render('learn/video', $data, 'learn');
+        $this->layout->render('learn/video', $data, 'app');
     }
 
     /**
@@ -50,10 +51,11 @@ class Learn extends User_Controller {
             'course_slug'         => $course_slug,
             'module_title'        => 'Modul 4: User Journey Mapping',
             'active_material_id'  => 2,
+            'active_menu'         => 'courses',
             'current_user'        => $this->current_user
         );
 
-        $this->layout->render('learn/quiz', $data, 'learn');
+        $this->layout->render('learn/quiz', $data, 'app');
     }
 
     /**
@@ -67,10 +69,11 @@ class Learn extends User_Controller {
             'course_slug'         => $course_slug,
             'module_title'        => 'Modul 4: User Journey Mapping',
             'active_material_id'  => 3,
+            'active_menu'         => 'courses',
             'current_user'        => $this->current_user
         );
 
-        $this->layout->render('learn/pdf', $data, 'learn');
+        $this->layout->render('learn/pdf', $data, 'app');
     }
 
     /**
@@ -84,9 +87,10 @@ class Learn extends User_Controller {
             'course_slug'         => $course_slug,
             'module_title'        => 'Modul 4: User Journey Mapping',
             'active_material_id'  => 6,
+            'active_menu'         => 'courses',
             'current_user'        => $this->current_user
         );
 
-        $this->layout->render('learn/article', $data, 'learn');
+        $this->layout->render('learn/article', $data, 'app');
     }
 }

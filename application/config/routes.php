@@ -20,11 +20,12 @@ $route['logout']             = 'auth/logout';
 
 // Learner Dashboard & Enrollment (Screens 4, 5)
 $route['dashboard']          = 'dashboard/index';
-$route['my-courses']         = 'my_courses/index';
 
 // Catalog & Course Details (Screens 6, 7)
 $route['courses']            = 'catalog/index';
 $route['courses/(:any)']     = 'catalog/detail/$1';
+$route['digital-product-fundamentals'] = 'catalog/detail/digital-product-fundamentals';
+
 
 // Dedicated Learning Theater Routes (Screens 8, 9, 10, 11)
 $route['learn/(:any)/video']          = 'learn/video/$1';
@@ -47,5 +48,10 @@ $route['certificates']       = 'certificates/index';
 $route['verify']             = 'verify/index';
 $route['verify/(:any)']      = 'verify/show/$1';
 
+// User Profile & Account Settings (Screen 15)
+$route['profile']            = 'profile/index';
+$route['profile/update']     = 'profile/update';
+
 // Component Styleguide & Design System Specification
 $route['_styleguide']        = 'styleguide/index';
+

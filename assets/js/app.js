@@ -4,20 +4,64 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Mobile sidebar toggle
+  // Sidebar toggle (supports mobile drawer and desktop collapse)
   const menuToggle = document.getElementById('mobileSidebarToggle');
+  const sidebarClose = document.getElementById('sidebarCloseBtn');
   const sidebar = document.querySelector('.app-sidebar');
   const backdrop = document.getElementById('sidebarBackdrop');
+  const appShell = document.querySelector('.app-shell');
 
-  if (menuToggle && sidebar && backdrop) {
-    menuToggle.addEventListener('click', function () {
-      sidebar.classList.toggle('is-open');
-      backdrop.classList.toggle('is-open');
-    });
+  function toggleSidebar(e) {
+    if (e && e.preventDefault) e.preventDefault();
+    if (window.innerWidth <= 768) {
+      if (sidebar) sidebar.classList.toggle('is-open');
+      if (backdrop) backdrop.classList.toggle('is-open');
+    } else {
+      if (appShell) {
+        appShell.classList.toggle('sidebar-collapsed');
+        try {
+          const isCollapsed = appShell.classList.contains('sidebar-collapsed');
+          localStorage.setItem('stmi_sidebar_collapsed', isCollapsed ? '1' : '0');
+        } catch (e) {}
+      }
+    }
+  }
 
+  function closeSidebar(e) {
+    if (e) {
+      if (e.preventDefault) e.preventDefault();
+      if (e.stopPropagation) e.stopPropagation();
+    }
+    if (window.innerWidth <= 768) {
+      if (sidebar) sidebar.classList.remove('is-open');
+      if (backdrop) backdrop.classList.remove('is-open');
+    } else {
+      if (appShell) {
+        appShell.classList.add('sidebar-collapsed');
+        try { localStorage.setItem('stmi_sidebar_collapsed', '1'); } catch (e) {}
+      }
+    }
+  }
+
+  // Restore desktop collapsed preference
+  try {
+    if (window.innerWidth > 768 && localStorage.getItem('stmi_sidebar_collapsed') === '1') {
+      if (appShell) appShell.classList.add('sidebar-collapsed');
+    }
+  } catch (e) {}
+
+  if (menuToggle) {
+    menuToggle.addEventListener('click', toggleSidebar);
+  }
+
+  if (sidebarClose) {
+    sidebarClose.addEventListener('click', closeSidebar);
+  }
+
+  if (backdrop) {
     backdrop.addEventListener('click', function () {
-      sidebar.classList.remove('is-open');
-      backdrop.classList.remove('is-open');
+      if (sidebar) sidebar.classList.remove('is-open');
+      if (backdrop) backdrop.classList.remove('is-open');
     });
   }
 

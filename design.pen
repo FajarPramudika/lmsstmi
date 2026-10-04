@@ -24145,6 +24145,1378 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "o8T5Yc",
+      "x": 9120,
+      "y": 1054,
+      "name": "User Profile Page - Digital Learn Platform",
+      "clip": true,
+      "width": 1440,
+      "height": 1080,
+      "fill": "#f8fafc",
+      "children": [
+        {
+          "type": "frame",
+          "id": "l2MEkw",
+          "name": "Sidebar Container",
+          "width": 260,
+          "height": 1080,
+          "fill": "#ffffff",
+          "stroke": "#dfe3ea",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "padding": [
+            24,
+            16
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WnHAb",
+              "name": "Sidebar Top Content",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "B5ibjt",
+                  "name": "Sidebar Brand Row",
+                  "width": 228,
+                  "gap": 12,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YQeMp",
+                      "name": "Brand Logo Group",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sYpqv",
+                          "name": "STMI Emblem",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#2872fa",
+                          "cornerRadius": 10,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#2872fa33",
+                            "offset": {
+                              "x": 0,
+                              "y": 3
+                            },
+                            "blur": 8
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S8bcyI",
+                              "name": "STMI Text",
+                              "fill": "#ffffff",
+                              "content": "DL",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "900"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PoR6r",
+                          "name": "Sidebar Titles",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ojSi4",
+                              "name": "Title Line",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Zh54r",
+                                  "name": "LMS Text",
+                                  "fill": "#192a3d",
+                                  "content": "Digital Learn",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 14,
+                                  "fontWeight": "800"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "F9qlgv",
+                              "name": "Portal Subtitle",
+                              "fill": "#667085",
+                              "content": "Platform Belajar Digital",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rArXm",
+                      "name": "Sidebar Close Button",
+                      "width": 34,
+                      "height": 34,
+                      "fill": "#f8fafc",
+                      "cornerRadius": 8,
+                      "stroke": "#eaecf0",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "pzL3w",
+                          "name": "Close Sidebar Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "sidebar-simple",
+                          "library": "phosphor",
+                          "fill": "#475467"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oHBBE",
+                  "name": "Nav Divider 1",
+                  "width": 228,
+                  "height": 1,
+                  "fill": "#f1f5f9"
+                },
+                {
+                  "type": "frame",
+                  "id": "aPeT5",
+                  "name": "Nav Group Utama",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J5hBOW",
+                      "name": "Nav Section Label 1",
+                      "fill": "#98a2b3",
+                      "content": "MENU UTAMA",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v989PP",
+                      "name": "Nav Item Dashboard",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mXXv1",
+                          "name": "Nav Icon 1",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "squares-four",
+                          "library": "phosphor",
+                          "fill": "#667085"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m7bNt",
+                          "name": "Nav Label 1",
+                          "fill": "#344054",
+                          "content": "Dashboard",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S0whVk",
+                      "name": "Nav Item Mata Kuliah",
+                      "width": 228,
+                      "height": 40,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qYRqO",
+                          "name": "Nav 2 Left",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "laCXQ",
+                              "name": "Nav Icon 2",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "phosphor",
+                              "fill": "#667085"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jLW9V",
+                              "name": "Nav Label 2",
+                              "fill": "#344054",
+                              "content": "Course Saya",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CchaH",
+                          "name": "Badge MK",
+                          "fill": "#f1f5f9",
+                          "cornerRadius": 6,
+                          "padding": [
+                            2,
+                            6
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dYqFP",
+                              "name": "Badge Text",
+                              "fill": "#475467",
+                              "content": "3 Course",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i1q5PU",
+                      "name": "Nav Item Katalog Course",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZoP4L",
+                          "name": "Nav Icon 3",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "compass",
+                          "library": "phosphor",
+                          "fill": "#667085"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mkzIe",
+                          "name": "Nav Label 3",
+                          "fill": "#344054",
+                          "content": "Katalog Course",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vfAGA",
+                      "name": "Nav Item Sertifikat Digital",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "P1GQLJ",
+                          "name": "Nav Icon 5",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "medal",
+                          "library": "phosphor",
+                          "fill": "#667085"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z5p0N2",
+                          "name": "Nav Label 5",
+                          "fill": "#344054",
+                          "content": "Sertifikat Digital",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "udCAi",
+              "name": "Sidebar User Card Active",
+              "width": 228,
+              "height": 64,
+              "fill": "#eff6ff",
+              "cornerRadius": 10,
+              "stroke": "#2872fa",
+              "strokeWidth": 1.5,
+              "padding": [
+                10,
+                12
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AKCav",
+                  "name": "User Card Left",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "p0gvdq",
+                      "name": "Student Avatar Frame",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "setyaki",
+                        "link": "https://unsplash.com/@setyaki",
+                        "author": "Irham Setyaki"
+                      },
+                      "width": 38,
+                      "height": 38,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1615263787251-a9a7c6c26cf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTEwMjQ0NDl8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": 19,
+                      "stroke": "#ffffff",
+                      "strokeWidth": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VM5OI",
+                      "name": "Student Info Text",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SgBGs",
+                          "name": "Student Name",
+                          "fill": "#192a3d",
+                          "content": "Muhammad Raihan",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fNPGa",
+                          "name": "Student NIM",
+                          "fill": "#667085",
+                          "content": "Peserta",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "SzERV",
+                  "name": "Logout Icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "sign-out",
+                  "library": "phosphor",
+                  "fill": "#98a2b3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G73K1",
+          "name": "Dashboard Main Area",
+          "width": 1180,
+          "height": 1080,
+          "fill": "#f8fafc",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "s3F3s",
+              "name": "Dashboard Top Bar",
+              "width": 1180,
+              "height": 70,
+              "fill": "#ffffff",
+              "stroke": "#dfe3ea",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "padding": [
+                0,
+                32
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tQCRE",
+                  "name": "Topbar Left Group",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eX6r7",
+                      "name": "Topbar Sidebar Toggle Button",
+                      "width": 38,
+                      "height": 38,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F3Inap",
+                          "name": "Toggle Sidebar Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "sidebar-simple",
+                          "library": "phosphor",
+                          "fill": "#475467"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JyH89",
+                      "name": "Top Search Box",
+                      "width": 420,
+                      "height": 42,
+                      "fill": "#f8fafc",
+                      "cornerRadius": 8,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "IsYDb",
+                          "name": "Search Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "magnifying-glass",
+                          "library": "phosphor",
+                          "fill": "#667085"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BcQEt",
+                          "name": "Search Placeholder",
+                          "fill": "#98a2b3",
+                          "content": "Cari sertifikat digital, nama course, atau ID...",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OeLIx",
+                  "name": "Top Right Actions",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Evfb5",
+                      "name": "Notif Button",
+                      "width": 38,
+                      "height": 38,
+                      "fill": "#f8fafc",
+                      "cornerRadius": 8,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "b7rft",
+                          "x": 10,
+                          "y": 10,
+                          "name": "Bell Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bell",
+                          "library": "phosphor",
+                          "fill": "#475467"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TnP6l",
+                          "x": 23,
+                          "y": 7,
+                          "name": "Notif Red Dot",
+                          "width": 8,
+                          "height": 8,
+                          "fill": "#ef4444",
+                          "cornerRadius": 4,
+                          "stroke": "#ffffff",
+                          "strokeWidth": 1.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lfm9c",
+              "name": "Main Content Canvas",
+              "width": 1180,
+              "height": 1010,
+              "fill": "#fafbfc",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                24,
+                32
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s4ASC",
+                  "name": "Profile Header Row",
+                  "width": 1116,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nYg4K",
+                      "name": "Title Column",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "t3w6Gr",
+                          "name": "Main Title",
+                          "fill": "#192a3d",
+                          "content": "Profil Pengguna & Keamanan Akun",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lbV3Z",
+                          "name": "Main Subtitle",
+                          "fill": "#64748b",
+                          "content": "Kelola informasi data diri, foto profil, dan kredensial akun peserta pembelajaran.",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HpXT1",
+                  "name": "Profile Main 2-Col Grid",
+                  "width": 1116,
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U6APCC",
+                      "name": "Left Column Profile",
+                      "width": 376,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UBO2o",
+                          "name": "Profile Card Avatar and Identity",
+                          "width": 376,
+                          "fill": "#ffffff",
+                          "cornerRadius": 12,
+                          "stroke": "#dfe3ea",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": [
+                            22,
+                            20
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zlKZo",
+                              "name": "Avatar Container",
+                              "width": 96,
+                              "height": 96,
+                              "fill": "#2872fa",
+                              "cornerRadius": 48,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#2872fa33",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 4
+                                },
+                                "blur": 12
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wzGcm",
+                                  "name": "Avatar Initials",
+                                  "fill": "#ffffff",
+                                  "content": "MR",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 32,
+                                  "fontWeight": "800"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O3mdZ",
+                              "name": "User Text Stack",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "pu5fC",
+                                  "name": "User Full Name",
+                                  "fill": "#192a3d",
+                                  "content": "Muhammad Raihan",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 17,
+                                  "fontWeight": "800"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aCJjd",
+                              "name": "Photo Action Buttons Row",
+                              "width": 336,
+                              "gap": 8,
+                              "justifyContent": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "J1Xw3u",
+                                  "name": "Upload Photo Button",
+                                  "fill": "#2872fa",
+                                  "cornerRadius": 8,
+                                  "gap": 6,
+                                  "padding": [
+                                    7,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "f4E5I",
+                                      "name": "Upload Icon",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "upload-simple",
+                                      "library": "phosphor",
+                                      "fill": "#ffffff"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "hdGPB",
+                                      "name": "Upload Text",
+                                      "fill": "#ffffff",
+                                      "content": "Unggah Foto Baru",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "VEgmJ",
+                                  "name": "Delete Photo Button",
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "gap": 6,
+                                  "padding": [
+                                    7,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "sZ29S",
+                                      "name": "Trash Icon",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "trash",
+                                      "library": "phosphor",
+                                      "fill": "#dc2626"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Jr8Cb",
+                                      "name": "Delete Text",
+                                      "fill": "#dc2626",
+                                      "content": "Hapus",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "GApA6",
+                              "name": "Photo Format Hint",
+                              "fill": "#94a3b8",
+                              "content": "Format JPG, PNG, atau WEBP. Maks. 2 MB.",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JZFBm",
+                              "name": "Card Divider 1",
+                              "width": 336,
+                              "height": 1,
+                              "fill": "#f1f5f9"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ST0wY",
+                      "name": "Right Column Forms",
+                      "width": 716,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "S6Pab",
+                          "name": "Profile Form Data Diri Card",
+                          "width": 716,
+                          "fill": "#ffffff",
+                          "cornerRadius": 12,
+                          "stroke": "#dfe3ea",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            20,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hylUt",
+                              "name": "Card 3 Header",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "GGoJN",
+                                  "name": "User Icon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "user",
+                                  "library": "phosphor",
+                                  "fill": "#2872fa"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "iUF4x",
+                                  "name": "Card 3 Title",
+                                  "fill": "#192a3d",
+                                  "content": "Informasi Data Diri Peserta",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 15,
+                                  "fontWeight": "800"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DvoWE",
+                              "name": "Form Group Name",
+                              "width": 668,
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "oyvx4",
+                                  "name": "Label Name",
+                                  "fill": "#344054",
+                                  "content": "Nama Lengkap Peserta (Tercetak di Sertifikat Kelulusan) *",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "C6mpmw",
+                                  "name": "Input Box Name",
+                                  "width": 668,
+                                  "height": 42,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 1.5,
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "r9zly",
+                                      "name": "Val Name",
+                                      "fill": "#192a3d",
+                                      "content": "Muhammad Raihan",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "L4Mpit",
+                              "name": "Form Group Email",
+                              "width": 668,
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "t6jIK",
+                                  "name": "Label Email",
+                                  "fill": "#344054",
+                                  "content": "Alamat Email Akun *",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "GAuaA",
+                                  "name": "Input Box Email",
+                                  "width": 668,
+                                  "height": 42,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "e476Uk",
+                                      "name": "Val Email",
+                                      "fill": "#192a3d",
+                                      "content": "raihan.student@stmi.ac.id",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 13,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wMsd5",
+                              "name": "Two Column Extra Fields",
+                              "width": 668,
+                              "gap": 16,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "tBdDl",
+                                  "name": "Col Phone",
+                                  "width": 326,
+                                  "layout": "vertical",
+                                  "gap": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "wQcK6",
+                                      "name": "Label Phone",
+                                      "fill": "#344054",
+                                      "content": "Nomor WhatsApp / HP",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "KrlC9",
+                                      "name": "Input Box Phone",
+                                      "width": 670,
+                                      "height": 42,
+                                      "fill": "#ffffff",
+                                      "cornerRadius": 8,
+                                      "stroke": "#dfe3ea",
+                                      "strokeWidth": 1,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Wf8x7",
+                                          "name": "Val Phone",
+                                          "fill": "#192a3d",
+                                          "content": "+62 812-3456-7890",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 13,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xfmGY",
+                          "name": "Profile Password Security Card",
+                          "width": 716,
+                          "fill": "#ffffff",
+                          "cornerRadius": 12,
+                          "stroke": "#dfe3ea",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            20,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "R7qR1Y",
+                              "name": "Card 4 Header",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "R3ZsWi",
+                                  "name": "Shield Icon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "shield-check",
+                                  "library": "phosphor",
+                                  "fill": "#2872fa"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "W6ycu",
+                                  "name": "Card 4 Title",
+                                  "fill": "#192a3d",
+                                  "content": "Keamanan Sandi Akun",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 15,
+                                  "fontWeight": "800"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fTGJn",
+                              "name": "Form Group Old Pass",
+                              "width": 668,
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "csekA",
+                                  "name": "Label Old Pass",
+                                  "fill": "#344054",
+                                  "content": "Kata Sandi Saat Ini",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NgYNv",
+                                  "name": "Input Box Old Pass",
+                                  "width": 668,
+                                  "height": 42,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "TaTsy",
+                                      "name": "Val Old Pass",
+                                      "fill": "#64748b",
+                                      "content": "••••••••••••••••",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "x8k097",
+                                      "name": "Eye Icon",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "eye",
+                                      "library": "phosphor",
+                                      "fill": "#94a3b8"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "akxHM",
+                              "name": "Two Column Password Row",
+                              "width": 668,
+                              "gap": 16,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "unB9l",
+                                  "name": "Col New Pass",
+                                  "width": 326,
+                                  "layout": "vertical",
+                                  "gap": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "S2Fi9Z",
+                                      "name": "Label New Pass",
+                                      "fill": "#344054",
+                                      "content": "Kata Sandi Baru",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "qsP7p",
+                                      "name": "Input Box New Pass",
+                                      "width": 326,
+                                      "height": 42,
+                                      "fill": "#ffffff",
+                                      "cornerRadius": 8,
+                                      "stroke": "#dfe3ea",
+                                      "strokeWidth": 1,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "T8zmhA",
+                                          "name": "Placeholder New Pass",
+                                          "fill": "#94a3b8",
+                                          "content": "Minimal 8 karakter unik",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ZKsVg",
+                                  "name": "Col Confirm Pass",
+                                  "width": 326,
+                                  "layout": "vertical",
+                                  "gap": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pVcC5",
+                                      "name": "Label Confirm Pass",
+                                      "fill": "#344054",
+                                      "content": "Konfirmasi Kata Sandi Baru",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "i6jZG",
+                                      "name": "Input Box Confirm Pass",
+                                      "width": 326,
+                                      "height": 42,
+                                      "fill": "#ffffff",
+                                      "cornerRadius": 8,
+                                      "stroke": "#dfe3ea",
+                                      "strokeWidth": 1,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "U07bp",
+                                          "name": "Placeholder Confirm Pass",
+                                          "fill": "#94a3b8",
+                                          "content": "Ulangi kata sandi baru",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "v2XgtD",
+                          "name": "Profile Action Bar Card",
+                          "width": 716,
+                          "fill": "#ffffff",
+                          "cornerRadius": 12,
+                          "stroke": "#dfe3ea",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "padding": [
+                            14,
+                            20
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sjFR1",
+                              "name": "Action Buttons Group",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "HrqYD",
+                                  "name": "Cancel Button",
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 8,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "padding": [
+                                    9,
+                                    16
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Ouxbd",
+                                      "name": "Cancel Text",
+                                      "fill": "#475467",
+                                      "content": "Batalkan",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "q3BLuF",
+                                  "name": "Save Changes Button",
+                                  "fill": "#2872fa",
+                                  "cornerRadius": 8,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#2872fa40",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 2
+                                    },
+                                    "blur": 6
+                                  },
+                                  "gap": 6,
+                                  "padding": [
+                                    9,
+                                    20
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "AncyO",
+                                      "name": "Check Save Icon",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "check",
+                                      "library": "phosphor",
+                                      "fill": "#ffffff"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "X7W2oc",
+                                      "name": "Save Text",
+                                      "fill": "#ffffff",
+                                      "content": "Simpan Perubahan Profil",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
