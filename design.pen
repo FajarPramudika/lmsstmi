@@ -25517,6 +25517,3608 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "fGwbm",
+      "x": 1520,
+      "y": 4450,
+      "name": "Admin Dashboard - Digital Learn Platform",
+      "clip": true,
+      "width": 1440,
+      "height": 1480,
+      "fill": "#f8fafc",
+      "children": [
+        {
+          "type": "frame",
+          "id": "IngRi",
+          "name": "Sidebar Container",
+          "width": 260,
+          "height": 1480,
+          "fill": "#ffffff",
+          "stroke": "#dfe3ea",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "padding": [
+            24,
+            16
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "SfhFY",
+              "name": "Sidebar Top Content",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w1x4N",
+                  "name": "Sidebar Brand Row",
+                  "width": 228,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qd2m2",
+                      "name": "Brand Logo Group",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vUvl4",
+                          "name": "STMI Emblem",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#2872fa",
+                          "cornerRadius": 10,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#2872fa33",
+                            "offset": {
+                              "x": 0,
+                              "y": 3
+                            },
+                            "blur": 8
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yGHxp",
+                              "name": "STMI Text",
+                              "fill": "#ffffff",
+                              "content": "DL",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "900"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UKgOX",
+                          "name": "Sidebar Titles",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DAhQf",
+                              "name": "Brand Title",
+                              "fill": "#192a3d",
+                              "content": "Digital Learn",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 14,
+                              "fontWeight": "800"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TkPyi",
+                              "name": "Brand Subtitle",
+                              "fill": "#667085",
+                              "content": "Platform Belajar Digital",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dIP7u",
+                  "name": "Nav Divider 1",
+                  "width": 228,
+                  "height": 1,
+                  "fill": "#f1f5f9"
+                },
+                {
+                  "type": "frame",
+                  "id": "MXM3D",
+                  "name": "Nav Group Administrator",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V3N8u",
+                      "name": "Nav Item Dashboard Active",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#e8f1fa",
+                      "cornerRadius": 8,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "a5HPy",
+                          "name": "Nav Icon Dashboard",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "squares-four",
+                          "library": "phosphor",
+                          "fill": "#2872fa"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sYvg7",
+                          "name": "Nav Label Dashboard",
+                          "fill": "#2872fa",
+                          "content": "Dashboard",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SZRUI",
+                      "name": "Nav Section Label",
+                      "fill": "#98a2b3",
+                      "content": "Manajemen",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wpujS",
+                      "name": "Nav Item Course",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WhO1j",
+                          "name": "Nav Left",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "QpKan",
+                              "name": "Nav Icon Course",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "phosphor",
+                              "fill": "#667085"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OaDIp",
+                              "name": "Nav Label Course",
+                              "fill": "#344054",
+                              "content": "Kategori Course",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f7Xwo9",
+                      "name": "Nav Item Course",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "D0bgU",
+                          "name": "Nav Left",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "A0GbDK",
+                              "name": "Nav Icon Course",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "phosphor",
+                              "fill": "#667085"
+                            },
+                            {
+                              "type": "text",
+                              "id": "O8Tgj",
+                              "name": "Nav Label Course",
+                              "fill": "#344054",
+                              "content": "Course",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gdwIX",
+                      "name": "Nav Item Course",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "R44c4P",
+                          "name": "Nav Left",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "o2q1u",
+                              "name": "Nav Icon Course",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "phosphor",
+                              "fill": "#667085"
+                            },
+                            {
+                              "type": "text",
+                              "id": "HOIAd",
+                              "name": "Nav Label Course",
+                              "fill": "#344054",
+                              "content": "User",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K6mFJc",
+                      "name": "Nav Item Course",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kYyFA",
+                          "name": "Nav Left",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xnSWq",
+                              "name": "Nav Icon Course",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "book-open",
+                              "library": "phosphor",
+                              "fill": "#667085"
+                            },
+                            {
+                              "type": "text",
+                              "id": "LYYzR",
+                              "name": "Nav Label Course",
+                              "fill": "#344054",
+                              "content": "Sertifikat",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TZ5Ks",
+                      "name": "Nav Item Monitoring",
+                      "width": 228,
+                      "height": 40,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "qRVET",
+                          "name": "Nav Icon Monitoring",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "users",
+                          "library": "phosphor",
+                          "fill": "#667085"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jCu6Y",
+                          "name": "Nav Label Monitoring",
+                          "fill": "#344054",
+                          "content": "Enrollment",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I7kYT2",
+              "name": "Sidebar Admin Card",
+              "width": 228,
+              "height": 64,
+              "fill": "#f8fafc",
+              "cornerRadius": 10,
+              "stroke": "#eaecf0",
+              "strokeWidth": 1,
+              "padding": [
+                10,
+                12
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "o22vr4",
+                  "name": "Admin Info Left",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "f1HGRr",
+                      "name": "Admin Avatar Frame",
+                      "width": 38,
+                      "height": 38,
+                      "fill": "#1e293b",
+                      "cornerRadius": 19,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZRLc0",
+                          "name": "Avatar AD",
+                          "fill": "#ffffff",
+                          "content": "AD",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SfifP",
+                      "name": "Admin Info Text",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z3AQl",
+                          "name": "Admin Name",
+                          "fill": "#192a3d",
+                          "content": "Admin LMS STMI",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rtl56",
+                          "name": "Admin Role",
+                          "fill": "#2872fa",
+                          "content": "Pengelola Platform",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "H2wfk",
+                  "name": "Logout Icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "sign-out",
+                  "library": "phosphor",
+                  "fill": "#98a2b3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rrFaA",
+          "name": "Dashboard Main Area",
+          "width": 1180,
+          "height": 1480,
+          "fill": "#f8fafc",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GPew9",
+              "name": "Dashboard Top Bar",
+              "width": 1180,
+              "height": 70,
+              "fill": "#ffffff",
+              "stroke": "#dfe3ea",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "padding": [
+                0,
+                32
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H32n5b",
+                  "name": "Topbar Left Group",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dQEcg",
+                      "name": "Topbar Sidebar Toggle Button",
+                      "width": 38,
+                      "height": 38,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Zh2yI",
+                          "name": "Toggle Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "sidebar-simple",
+                          "library": "phosphor",
+                          "fill": "#475467"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DOMSz",
+                      "name": "Top Search Box",
+                      "width": 440,
+                      "height": 42,
+                      "fill": "#f8fafc",
+                      "cornerRadius": 8,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "w8gByN",
+                          "name": "Search Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "magnifying-glass",
+                          "library": "phosphor",
+                          "fill": "#667085"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uMj4V",
+                          "name": "Search Placeholder",
+                          "fill": "#98a2b3",
+                          "content": "Cari peserta, course, ID sertifikat, atau log aktivitas...",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H6AgGW",
+                  "name": "Topbar Right Actions",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Gx3km",
+                      "name": "Notif Button",
+                      "width": 38,
+                      "height": 38,
+                      "fill": "#f8fafc",
+                      "cornerRadius": 8,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "lVX9p",
+                          "name": "Bell",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bell",
+                          "library": "phosphor",
+                          "fill": "#475467"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LVt5p",
+                          "layoutPosition": "absolute",
+                          "x": 23,
+                          "y": 7,
+                          "name": "Notif Dot",
+                          "width": 8,
+                          "height": 8,
+                          "fill": "#ef4444",
+                          "cornerRadius": 4,
+                          "stroke": "#ffffff",
+                          "strokeWidth": 1.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CGBEI",
+              "name": "Main Content Canvas",
+              "width": 1180,
+              "height": 1410,
+              "fill": "#f8fafc",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                24,
+                32
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Woxim",
+                  "name": "Admin Header Row",
+                  "width": 1116,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "faL5C",
+                      "name": "Title Column",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RYtqv",
+                          "name": "Main Title",
+                          "fill": "#192a3d",
+                          "content": "Dashboard Administrasi Platform",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "z2xL8A",
+                          "name": "Main Subtitle",
+                          "fill": "#64748b",
+                          "content": "Pusat kendali monitoring pembelajaran, progres peserta, dan pengelolaan sertifikasi digital.",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LPu9q",
+                      "name": "Header Right Actions",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ssnJr",
+                          "name": "Export Button",
+                          "height": 34,
+                          "fill": "#ffffff",
+                          "cornerRadius": 8,
+                          "stroke": "#dfe3ea",
+                          "strokeWidth": 1,
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "x64BS",
+                              "name": "Download Icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "download-simple",
+                              "library": "phosphor",
+                              "fill": "#64748b"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QbEdG",
+                              "name": "Export Text",
+                              "fill": "#344054",
+                              "content": "Unduh Rekap Data",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YYC0o",
+                  "name": "KPI Metrics Row",
+                  "width": 1116,
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lIHPr",
+                      "name": "KPI Card User",
+                      "width": 212,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UlAx3",
+                          "name": "Top Line",
+                          "width": 180,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XrGEW",
+                              "name": "Label",
+                              "fill": "#64748b",
+                              "content": "Total Peserta",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GApsh",
+                              "name": "Icon Circle",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "#eff6ff",
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "JAgIf",
+                                  "name": "Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "users",
+                                  "library": "phosphor",
+                                  "fill": "#2872fa"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "B29d93",
+                          "name": "Metric Value",
+                          "fill": "#192a3d",
+                          "content": "1,248",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "E5SYyo",
+                          "name": "Bottom Note",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q8MhP",
+                              "name": "Growth Badge",
+                              "fill": "#16a34a",
+                              "content": "+128 baru",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EgZlO",
+                              "name": "Subnote",
+                              "fill": "#94a3b8",
+                              "content": "bulan ini",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m32q1X",
+                      "name": "KPI Card Course",
+                      "width": 212,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cJXcT",
+                          "name": "Top Line",
+                          "width": 180,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fdAMG",
+                              "name": "Label",
+                              "fill": "#64748b",
+                              "content": "Kursus & Enrollment",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DxAjp",
+                              "name": "Icon Circle",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "#eef2ff",
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "If6On",
+                                  "name": "Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "book-open",
+                                  "library": "phosphor",
+                                  "fill": "#6366f1"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "fDlr4",
+                          "name": "Metric Value",
+                          "fill": "#192a3d",
+                          "content": "12 Course",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZuVSW",
+                          "name": "Bottom Note",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KuZ0L",
+                              "name": "Active Badge",
+                              "fill": "#6366f1",
+                              "content": "8 Aktif",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "gMBGG",
+                              "name": "Subnote",
+                              "fill": "#64748b",
+                              "content": "• 3,420 Enroll",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iUs6j",
+                      "name": "KPI Card Learning",
+                      "width": 212,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mS4gI",
+                          "name": "Top Line",
+                          "width": 180,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tBxfX",
+                              "name": "Label",
+                              "fill": "#64748b",
+                              "content": "Peserta Aktif Belajar",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NAhha",
+                              "name": "Icon Circle",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "#ecfdf5",
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "PfeVA",
+                                  "name": "Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "trend-up",
+                                  "library": "phosphor",
+                                  "fill": "#10b981"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "BwrkR",
+                          "name": "Metric Value",
+                          "fill": "#192a3d",
+                          "content": "892 Orang",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Rk57Y",
+                          "name": "Bottom Note",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qvXeD",
+                              "name": "Completion Rate",
+                              "fill": "#10b981",
+                              "content": "68.4%",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Zn2C2",
+                              "name": "Subnote",
+                              "fill": "#64748b",
+                              "content": "Completion Rate",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lRuHC",
+                      "name": "KPI Card Assessment",
+                      "width": 212,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Z1BwXa",
+                          "name": "Top Line",
+                          "width": 180,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jT99p",
+                              "name": "Label",
+                              "fill": "#64748b",
+                              "content": "Evaluasi & Ujian",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "I6dqvq",
+                              "name": "Icon Circle",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "#fffbeb",
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "q64UO6",
+                                  "name": "Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "check-circle",
+                                  "library": "phosphor",
+                                  "fill": "#f59e0b"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "MMRn4",
+                          "name": "Big Metric",
+                          "fill": "#192a3d",
+                          "content": "1,580 Sesi",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LY3qG",
+                          "name": "Bottom Line",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GmrtE",
+                              "name": "Trend Text",
+                              "fill": "#d97706",
+                              "content": "84.2%",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GdXgC",
+                              "name": "Trend Label",
+                              "fill": "#64748b",
+                              "content": "Pass Rate Ujian",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xaM4J",
+                      "name": "KPI Card Certificate",
+                      "width": 212,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PYuLS",
+                          "name": "Top Line",
+                          "width": 180,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "W6c2U",
+                              "name": "Label",
+                              "fill": "#64748b",
+                              "content": "Sertifikat Terbit",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CWvxJ",
+                              "name": "Icon Circle",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "#f5f3ff",
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "YXvOk",
+                                  "name": "Icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "medal",
+                                  "library": "phosphor",
+                                  "fill": "#8b5cf6"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "S4PL1",
+                          "name": "Metric Value",
+                          "fill": "#192a3d",
+                          "content": "642 Terbit",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I4emw",
+                          "name": "Bottom Note",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "puRlb",
+                              "name": "Cert Badge",
+                              "fill": "#8b5cf6",
+                              "content": "100%",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xdCy1",
+                              "name": "Subnote",
+                              "fill": "#64748b",
+                              "content": "Valid & Terverifikasi",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "baNZ4",
+                  "name": "Web Monitoring Row",
+                  "width": 1116,
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aKE1v",
+                      "name": "Active Participants Chart Card",
+                      "width": 756,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NQGXZ",
+                          "name": "Chart Header Row",
+                          "width": 716,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "DAcBD",
+                              "name": "Header Left",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "sDn7a",
+                                  "name": "Icon Badge",
+                                  "width": 36,
+                                  "height": 36,
+                                  "fill": "#eff6ff",
+                                  "cornerRadius": 8,
+                                  "stroke": "#dbeafe",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "t2asT",
+                                      "name": "Trend Icon",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "trend-up",
+                                      "library": "phosphor",
+                                      "fill": "#2872fa"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "CVkC3",
+                                  "name": "Title Col",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "W55vX7",
+                                      "name": "Chart Title",
+                                      "fill": "#192a3d",
+                                      "content": "Aktivitas & Tren Peserta Aktif (Web Monitoring)",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "cSRyK",
+                                      "name": "Chart Subtitle",
+                                      "fill": "#64748b",
+                                      "content": "Tren akses materi dan aktivitas kuis secara real-time",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mIafo",
+                              "name": "Header Right",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "olE0e",
+                                  "name": "Period Tabs",
+                                  "fill": "#f8fafc",
+                                  "cornerRadius": 8,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "gap": 2,
+                                  "padding": 3,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "y0LFg",
+                                      "name": "Tab 7 Hari Active",
+                                      "fill": "#ffffff",
+                                      "cornerRadius": 6,
+                                      "effect": {
+                                        "type": "shadow",
+                                        "shadowType": "outer",
+                                        "color": "#1018280f",
+                                        "offset": {
+                                          "x": 0,
+                                          "y": 1
+                                        },
+                                        "blur": 2
+                                      },
+                                      "padding": [
+                                        4,
+                                        10
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "bNDJn",
+                                          "name": "Tab Text",
+                                          "fill": "#192a3d",
+                                          "content": "7 Hari",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "W2lwc",
+                                      "name": "Tab 30 Hari",
+                                      "padding": [
+                                        4,
+                                        10
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "M7hkoH",
+                                          "name": "Tab Text",
+                                          "fill": "#64748b",
+                                          "content": "30 Hari",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "QmSal",
+                                      "name": "Tab Semester",
+                                      "padding": [
+                                        4,
+                                        10
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "RztSM",
+                                          "name": "Tab Text",
+                                          "fill": "#64748b",
+                                          "content": "Semester",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "C7C8g",
+                          "name": "Metrics Highlight Strip",
+                          "width": 716,
+                          "fill": "#f8fafc",
+                          "cornerRadius": 8,
+                          "padding": [
+                            10,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "k3GukW",
+                              "name": "Stat Total Sesi",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XBNte",
+                                  "name": "Stat Label",
+                                  "fill": "#64748b",
+                                  "content": "TOTAL SESI MINGGU INI",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "WCdVk",
+                                  "name": "Val Row",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "CEQkd",
+                                      "name": "Stat Val",
+                                      "fill": "#192a3d",
+                                      "content": "1,148 Sesi",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "F3buaU",
+                                      "name": "Stat Badge",
+                                      "fill": "#ecfdf5",
+                                      "cornerRadius": 4,
+                                      "padding": [
+                                        1,
+                                        5
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "fZuT6",
+                                          "name": "Badge Text",
+                                          "fill": "#059669",
+                                          "content": "+16.8%",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "cPfvY",
+                              "name": "Divider 1",
+                              "width": 1,
+                              "height": 28,
+                              "fill": "#e2e8f0"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BIQlk",
+                              "name": "Stat Rata Rata",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PYBTT",
+                                  "name": "Stat Label",
+                                  "fill": "#64748b",
+                                  "content": "RATA-RATA HARIAN",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "H1KrA",
+                                  "name": "Val Row",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Cp9K9",
+                                      "name": "Stat Val",
+                                      "fill": "#192a3d",
+                                      "content": "164 Peserta / Hari",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "cUfYh",
+                                      "name": "Subtext",
+                                      "fill": "#64748b",
+                                      "content": "• Stabil",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xgtmv",
+                              "name": "Divider 2",
+                              "width": 1,
+                              "height": 28,
+                              "fill": "#e2e8f0"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y4ByzX",
+                              "name": "Stat Peak",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "C9cCpm",
+                                  "name": "Stat Label",
+                                  "fill": "#64748b",
+                                  "content": "Sesi aktif saat ini",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "T9u7rE",
+                                  "name": "Val Row",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "TJe4y",
+                                      "name": "Stat Val",
+                                      "fill": "#2872fa",
+                                      "content": "142 Pengguna ",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "fCP4V",
+                                      "name": "Subtext",
+                                      "fill": "#2872fa",
+                                      "content": "(Aktif Menonton)",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "esLLC",
+                          "name": "Chart Canvas",
+                          "width": 716,
+                          "height": 165,
+                          "gap": 12,
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "OhC7E",
+                              "name": "Y Axis Labels",
+                              "width": 32,
+                              "height": 165,
+                              "layout": "vertical",
+                              "padding": [
+                                0,
+                                4,
+                                30,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aM5oH",
+                                  "name": "Y Label",
+                                  "fill": "#94a3b8",
+                                  "content": "250",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "xpKXk",
+                                  "name": "Y Label",
+                                  "fill": "#94a3b8",
+                                  "content": "200",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "mXcEv",
+                                  "name": "Y Label",
+                                  "fill": "#94a3b8",
+                                  "content": "150",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "r2Vh3",
+                                  "name": "Y Label",
+                                  "fill": "#94a3b8",
+                                  "content": "100",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "S945Nk",
+                                  "name": "Y Label",
+                                  "fill": "#94a3b8",
+                                  "content": "50",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "hF94s",
+                                  "name": "Y Label",
+                                  "fill": "#94a3b8",
+                                  "content": "0",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VssP4",
+                              "name": "Line Chart Container",
+                              "width": 672,
+                              "height": 165,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "GI783",
+                                  "x": 0,
+                                  "y": 6,
+                                  "name": "Grid 250",
+                                  "width": 672,
+                                  "height": 1,
+                                  "fill": "#f1f5f9"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xCKjQ",
+                                  "x": 0,
+                                  "y": 31,
+                                  "name": "Grid 200",
+                                  "width": 672,
+                                  "height": 1,
+                                  "fill": "#f1f5f9"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "v1fYVn",
+                                  "x": 0,
+                                  "y": 56,
+                                  "name": "Grid 150",
+                                  "width": 672,
+                                  "height": 1,
+                                  "fill": "#f1f5f9"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HIa6p",
+                                  "x": 0,
+                                  "y": 81,
+                                  "name": "Grid 100",
+                                  "width": 672,
+                                  "height": 1,
+                                  "fill": "#f1f5f9"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jJkTl",
+                                  "x": 0,
+                                  "y": 106,
+                                  "name": "Grid 50",
+                                  "width": 672,
+                                  "height": 1,
+                                  "fill": "#f1f5f9"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MdMRr",
+                                  "x": 0,
+                                  "y": 131,
+                                  "name": "Grid 0 Baseline",
+                                  "width": 672,
+                                  "height": 1,
+                                  "fill": "#e2e8f0"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "B1NU5",
+                                  "x": 300,
+                                  "y": 0,
+                                  "name": "Peak Day Highlight",
+                                  "width": 72,
+                                  "height": 131,
+                                  "fill": "#2872fa0a",
+                                  "cornerRadius": 6
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "G9YB6",
+                                  "x": 336,
+                                  "y": 26,
+                                  "name": "Peak Guide Line",
+                                  "width": 1,
+                                  "height": 105,
+                                  "fill": "#93c5fd"
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "PdIJ2",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Area Fill Modul",
+                                  "geometry": "M36 78c35-8 65-20 100-23 35-3 65 15 100 8 35-7 65-34 100-37 35-3 65 11 100 21 35 10 65 35 100 39 35 4 65-17 100-26l0 71-600 0z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    672,
+                                    132
+                                  ],
+                                  "width": 672,
+                                  "height": 132
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "V6hYj",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Area Fill Kuis",
+                                  "geometry": "M36 117c35-2 65-4 100-5 35-1 65 4 100 7 35 3 65-11 100-14 35-3 65 1 100 4 35 3 65 11 100 13 35 2 65-2 100-4l0 13-600 0z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    672,
+                                    132
+                                  ],
+                                  "width": 672,
+                                  "height": 132
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "jU0Mi",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Line Kuis",
+                                  "geometry": "M36 117c35-2 65-4 100-5 35-1 65 4 100 7 35 3 65-11 100-14 35-3 65 1 100 4 35 3 65 11 100 13 35 2 65-2 100-4",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    672,
+                                    132
+                                  ],
+                                  "width": 672,
+                                  "height": 132,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 2.5,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "aN3Ek",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Line Modul",
+                                  "geometry": "M36 78c35-8 65-20 100-23 35-3 65 15 100 8 35-7 65-34 100-37 35-3 65 11 100 21 35 10 65 35 100 39 35 4 65-17 100-26",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    672,
+                                    132
+                                  ],
+                                  "width": 672,
+                                  "height": 132,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 3.5,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "y5Nu1",
+                                  "x": 33,
+                                  "y": 114,
+                                  "name": "Dot Kuis Sen",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lIQ2W",
+                                  "x": 133,
+                                  "y": 109,
+                                  "name": "Dot Kuis Sel",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "K4mD8",
+                                  "x": 233,
+                                  "y": 116,
+                                  "name": "Dot Kuis Rab",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lCHnD",
+                                  "x": 333,
+                                  "y": 102,
+                                  "name": "Dot Kuis Kam",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#0284c7",
+                                  "strokeWidth": 2
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nWpDM",
+                                  "x": 433,
+                                  "y": 106,
+                                  "name": "Dot Kuis Jum",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "y871Ui",
+                                  "x": 533,
+                                  "y": 119,
+                                  "name": "Dot Kuis Sab",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KEpIl",
+                                  "x": 633,
+                                  "y": 115,
+                                  "name": "Dot Kuis Min",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 3,
+                                  "stroke": "#38bdf8",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KHBKp",
+                                  "x": 32,
+                                  "y": 74,
+                                  "name": "Dot Modul Sen",
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 4,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Aa1GM",
+                                  "x": 132,
+                                  "y": 51,
+                                  "name": "Dot Modul Sel",
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 4,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ozwBY",
+                                  "x": 232,
+                                  "y": 59,
+                                  "name": "Dot Modul Rab",
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 4,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SVtQO",
+                                  "x": 432,
+                                  "y": 43,
+                                  "name": "Dot Modul Jum",
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 4,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "z6Obbu",
+                                  "x": 532,
+                                  "y": 82,
+                                  "name": "Dot Modul Sab",
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 4,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "n6q4nD",
+                                  "x": 632,
+                                  "y": 56,
+                                  "name": "Dot Modul Min",
+                                  "width": 8,
+                                  "height": 8,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 4,
+                                  "stroke": "#2872fa",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lrwim",
+                                  "x": 326,
+                                  "y": 16,
+                                  "name": "Peak Halo",
+                                  "width": 20,
+                                  "height": 20,
+                                  "fill": "#2872fa20",
+                                  "cornerRadius": 10,
+                                  "stroke": "#2872fa50",
+                                  "strokeWidth": 1.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MW7De",
+                                  "x": 331,
+                                  "y": 21,
+                                  "name": "Peak Solid Dot",
+                                  "width": 10,
+                                  "height": 10,
+                                  "fill": "#2872fa",
+                                  "cornerRadius": 5,
+                                  "stroke": "#ffffff",
+                                  "strokeWidth": 2.5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "beASd",
+                                  "x": 276,
+                                  "y": -14,
+                                  "name": "Peak Tooltip Card",
+                                  "width": 120,
+                                  "fill": "#192a3d",
+                                  "cornerRadius": 6,
+                                  "effect": {
+                                    "type": "shadow",
+                                    "shadowType": "outer",
+                                    "color": "#10182833",
+                                    "offset": {
+                                      "x": 0,
+                                      "y": 2
+                                    },
+                                    "blur": 5
+                                  },
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "padding": [
+                                    4,
+                                    8
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "QmGJT",
+                                      "name": "Peak Title",
+                                      "fill": "#ffffff",
+                                      "content": "210 Peserta)",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "j8ZfwK",
+                                  "x": 332,
+                                  "y": 14,
+                                  "name": "Tooltip Arrow",
+                                  "geometry": "M0 0l8 0-4 5z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    8,
+                                    5
+                                  ],
+                                  "fill": "#192a3d",
+                                  "width": 8,
+                                  "height": 5
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SooGH",
+                                  "x": 0,
+                                  "y": 136,
+                                  "name": "X-Axis Row",
+                                  "width": 672,
+                                  "height": 28,
+                                  "gap": 28,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "fFpDs",
+                                      "name": "X Sen",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "lhykO",
+                                          "fill": "#344054",
+                                          "content": "Sen",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "h4Ni7o",
+                                          "fill": "#94a3b8",
+                                          "content": "29 Sep",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "BTHbk",
+                                      "name": "X Sel",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "mTs25",
+                                          "fill": "#344054",
+                                          "content": "Sel",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "y8LLq",
+                                          "fill": "#94a3b8",
+                                          "content": "30 Sep",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "WHYCZ",
+                                      "name": "X Rab",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Fwi0S",
+                                          "fill": "#344054",
+                                          "content": "Rab",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "lOmED",
+                                          "fill": "#94a3b8",
+                                          "content": "01 Okt",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "b69Vwz",
+                                      "name": "X Kam",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "A36Mv",
+                                          "fill": "#2872fa",
+                                          "content": "Kam",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "800"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "SgkJ2",
+                                          "fill": "#2872fa",
+                                          "content": "02 Okt",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "cSIRZ",
+                                      "name": "X Jum",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "GAPIR",
+                                          "fill": "#344054",
+                                          "content": "Jum",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "b0hB7",
+                                          "fill": "#94a3b8",
+                                          "content": "03 Okt",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "KiwoO",
+                                      "name": "X Sab",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "GnB4c",
+                                          "fill": "#344054",
+                                          "content": "Sab",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "Yd2PK",
+                                          "fill": "#94a3b8",
+                                          "content": "04 Okt",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "EcfNO",
+                                      "name": "X Min",
+                                      "width": 72,
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "dp524",
+                                          "fill": "#344054",
+                                          "content": "Min",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 11,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "RLMWD",
+                                          "fill": "#94a3b8",
+                                          "content": "05 Okt",
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 10,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KUlOQ",
+                  "name": "Admin Main Grid",
+                  "width": 1116,
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "txZDA",
+                      "name": "Participant Monitoring Card",
+                      "width": 756,
+                      "fill": "#ffffff",
+                      "cornerRadius": 12,
+                      "stroke": "#dfe3ea",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zHpJj",
+                          "name": "Table Card Header",
+                          "width": 716,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hJqWr",
+                              "name": "Table Title Column",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "OhEGt",
+                                  "name": "Table Main Title",
+                                  "fill": "#192a3d",
+                                  "content": "Monitoring Progres Peserta (Participant Monitoring)",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 14,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "bS6dR",
+                                  "name": "Table Subtitle",
+                                  "fill": "#64748b",
+                                  "content": "Pantau progres pembelajaran, riwayat attempt ujian, dan status penerbitan sertifikat.",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mFasK",
+                              "name": "Table Filters",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "R7rl8K",
+                                  "name": "Mini Search",
+                                  "width": 180,
+                                  "height": 32,
+                                  "fill": "#f8fafc",
+                                  "cornerRadius": 6,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "gap": 6,
+                                  "padding": [
+                                    0,
+                                    8
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "KW209",
+                                      "name": "Search Icon",
+                                      "width": 12,
+                                      "height": 12,
+                                      "icon": "magnifying-glass",
+                                      "library": "phosphor",
+                                      "fill": "#667085"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "OPeZq",
+                                      "name": "Search Text",
+                                      "fill": "#98a2b3",
+                                      "content": "Cari nama / NIM...",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "GATbi",
+                                  "name": "Course Dropdown",
+                                  "height": 32,
+                                  "fill": "#ffffff",
+                                  "cornerRadius": 6,
+                                  "stroke": "#dfe3ea",
+                                  "strokeWidth": 1,
+                                  "gap": 4,
+                                  "padding": [
+                                    0,
+                                    10
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "RsHte",
+                                      "name": "Dropdown Text",
+                                      "fill": "#344054",
+                                      "content": "Semua Course ▾",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Uzpbp",
+                          "name": "Table Col Headers",
+                          "width": 716,
+                          "height": 34,
+                          "fill": "#f8fafc",
+                          "cornerRadius": 6,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lAiKq",
+                              "name": "Col Peserta",
+                              "fill": "#64748b",
+                              "textGrowth": "fixed-width",
+                              "width": 170,
+                              "content": "PESERTA",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "RV9pl",
+                              "name": "Col Course",
+                              "fill": "#64748b",
+                              "textGrowth": "fixed-width",
+                              "width": 145,
+                              "content": "COURSE",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "v0fgD2",
+                              "name": "Col Progress",
+                              "fill": "#64748b",
+                              "textGrowth": "fixed-width",
+                              "width": 105,
+                              "content": "PROGRESS",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "IWWHx",
+                              "name": "Col Status",
+                              "fill": "#64748b",
+                              "textGrowth": "fixed-width",
+                              "width": 85,
+                              "content": "STATUS",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "X2boYC",
+                              "name": "Col Nilai",
+                              "fill": "#64748b",
+                              "textGrowth": "fixed-width",
+                              "width": 95,
+                              "content": "NILAI ATTEMPT",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "A7LYkJ",
+                              "name": "Col Sertifikat",
+                              "fill": "#64748b",
+                              "textGrowth": "fixed-width",
+                              "width": 92,
+                              "content": "SERTIFIKAT",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ik1hY",
+                          "name": "Table Row Muhammad Raihan",
+                          "width": 716,
+                          "height": 52,
+                          "stroke": "#f1f5f9",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SfdNt",
+                              "name": "Cell Peserta",
+                              "width": 170,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "VOPIL",
+                                  "name": "Avatar",
+                                  "width": 28,
+                                  "height": 28,
+                                  "fill": "#2872fa",
+                                  "cornerRadius": 14,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "hCrhH",
+                                      "name": "Initials",
+                                      "fill": "#ffffff",
+                                      "content": "MR",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "bf4Hm",
+                                  "name": "Text Stack",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pNHqV",
+                                      "name": "Name",
+                                      "fill": "#192a3d",
+                                      "content": "Muhammad Raihan",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "FxyRT",
+                              "name": "Cell Course",
+                              "fill": "#344054",
+                              "textGrowth": "fixed-width",
+                              "width": 145,
+                              "content": "Digital Product Fundam.",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hiunQ",
+                              "name": "Cell Progress",
+                              "width": 105,
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "dirRO",
+                                  "name": "Progress Track",
+                                  "width": 50,
+                                  "height": 6,
+                                  "fill": "#f1f5f9",
+                                  "cornerRadius": 3,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "vcZng",
+                                      "name": "Progress Bar",
+                                      "width": 50,
+                                      "height": 6,
+                                      "fill": "#10b981",
+                                      "cornerRadius": 3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aAHNF",
+                                  "name": "Progress Text",
+                                  "fill": "#192a3d",
+                                  "content": "100%",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PZBfd",
+                              "name": "Cell Status",
+                              "width": 85,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "qM3Gg",
+                                  "name": "Status Pill",
+                                  "fill": "#ecfdf5",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Qpa4R",
+                                      "name": "Status Text",
+                                      "fill": "#059669",
+                                      "content": "Completed",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "ntAVh",
+                              "name": "Cell Nilai",
+                              "fill": "#059669",
+                              "textGrowth": "fixed-width",
+                              "width": 95,
+                              "content": "30/70/85",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wwdTm",
+                              "name": "Cell Sertifikat",
+                              "width": 92,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "I0EEl",
+                                  "name": "Cert Pill",
+                                  "fill": "#eff6ff",
+                                  "cornerRadius": 6,
+                                  "stroke": "#bfdbfe",
+                                  "strokeWidth": 1,
+                                  "gap": 4,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "OZi6o",
+                                      "name": "Cert Icon",
+                                      "width": 10,
+                                      "height": 10,
+                                      "icon": "medal",
+                                      "library": "phosphor",
+                                      "fill": "#2872fa"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Wux0B",
+                                      "name": "Cert Text",
+                                      "fill": "#2872fa",
+                                      "content": "Issued",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c9THL",
+                          "name": "Table Row Siti Nurhaliza",
+                          "width": 716,
+                          "height": 52,
+                          "stroke": "#f1f5f9",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fcL5J",
+                              "name": "Cell Peserta",
+                              "width": 170,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "WPFQ2",
+                                  "name": "Avatar",
+                                  "width": 28,
+                                  "height": 28,
+                                  "fill": "#8b5cf6",
+                                  "cornerRadius": 14,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "C6l13",
+                                      "name": "Initials",
+                                      "fill": "#ffffff",
+                                      "content": "SN",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "mEgID",
+                                  "name": "Text Stack",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "jzbMG",
+                                      "name": "Name",
+                                      "fill": "#192a3d",
+                                      "content": "Siti Nurhaliza",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "S3r94o",
+                              "name": "Cell Course",
+                              "fill": "#344054",
+                              "textGrowth": "fixed-width",
+                              "width": 145,
+                              "content": "Digital Product Fundam.",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tof2J",
+                              "name": "Cell Progress",
+                              "width": 105,
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "N8EWva",
+                                  "name": "Progress Track",
+                                  "width": 50,
+                                  "height": 6,
+                                  "fill": "#f1f5f9",
+                                  "cornerRadius": 3,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "jzbr5",
+                                      "name": "Progress Bar",
+                                      "width": 38,
+                                      "height": 6,
+                                      "fill": "#2872fa",
+                                      "cornerRadius": 3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ST5fm",
+                                  "name": "Progress Text",
+                                  "fill": "#192a3d",
+                                  "content": "75%",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yyh4Q",
+                              "name": "Cell Status",
+                              "width": 85,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "MlJ22",
+                                  "name": "Status Pill",
+                                  "fill": "#eff6ff",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "SsFB2",
+                                      "name": "Status Text",
+                                      "fill": "#1d4ed8",
+                                      "content": "In Progress",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "oMA4J",
+                              "name": "Cell Nilai",
+                              "fill": "#94a3b8",
+                              "textGrowth": "fixed-width",
+                              "width": 95,
+                              "content": "–",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wHP9v",
+                              "name": "Cell Sertifikat",
+                              "width": 92,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "O285AP",
+                                  "name": "Cert Dash",
+                                  "fill": "#94a3b8",
+                                  "content": "–",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gZMS1",
+                          "name": "Table Row Budi Santoso",
+                          "width": 716,
+                          "height": 52,
+                          "stroke": "#f1f5f9",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "f5mGOY",
+                              "name": "Cell Peserta",
+                              "width": 170,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "OADyP",
+                                  "name": "Avatar",
+                                  "width": 28,
+                                  "height": 28,
+                                  "fill": "#f59e0b",
+                                  "cornerRadius": 14,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "NGwfL",
+                                      "name": "Initials",
+                                      "fill": "#ffffff",
+                                      "content": "BS",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "XGOWf",
+                                  "name": "Text Stack",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "zM3Tl",
+                                      "name": "Name",
+                                      "fill": "#192a3d",
+                                      "content": "Budi Santoso",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "eRKQx",
+                              "name": "Cell Course",
+                              "fill": "#344054",
+                              "textGrowth": "fixed-width",
+                              "width": 145,
+                              "content": "UI/UX Design Principles",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LHpFl",
+                              "name": "Cell Progress",
+                              "width": 105,
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "tb1pw",
+                                  "name": "Progress Track",
+                                  "width": 50,
+                                  "height": 6,
+                                  "fill": "#f1f5f9",
+                                  "cornerRadius": 3,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "I4EFY",
+                                      "name": "Progress Bar",
+                                      "width": 23,
+                                      "height": 6,
+                                      "fill": "#2872fa",
+                                      "cornerRadius": 3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WJ8aW",
+                                  "name": "Progress Text",
+                                  "fill": "#192a3d",
+                                  "content": "45%",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ow3VZ",
+                              "name": "Cell Status",
+                              "width": 85,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "jBZlB",
+                                  "name": "Status Pill",
+                                  "fill": "#eff6ff",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "C4Hq10",
+                                      "name": "Status Text",
+                                      "fill": "#1d4ed8",
+                                      "content": "In Progress",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "d18iO0",
+                              "name": "Cell Nilai",
+                              "fill": "#94a3b8",
+                              "textGrowth": "fixed-width",
+                              "width": 95,
+                              "content": "–",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GYxO9",
+                              "name": "Cell Sertifikat",
+                              "width": 92,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QoEpx",
+                                  "name": "Cert Dash",
+                                  "fill": "#94a3b8",
+                                  "content": "–",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P4B5w0",
+                          "name": "Table Row Amanda Putri",
+                          "width": 716,
+                          "height": 52,
+                          "stroke": "#f1f5f9",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "UuQjJ",
+                              "name": "Cell Peserta",
+                              "width": 170,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "G8LMmp",
+                                  "name": "Avatar",
+                                  "width": 28,
+                                  "height": 28,
+                                  "fill": "#10b981",
+                                  "cornerRadius": 14,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "A1Bh0l",
+                                      "name": "Initials",
+                                      "fill": "#ffffff",
+                                      "content": "AP",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "GVDWp",
+                                  "name": "Text Stack",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "A0Tkp",
+                                      "name": "Name",
+                                      "fill": "#192a3d",
+                                      "content": "Amanda Putri",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "yRQkn",
+                              "name": "Cell Course",
+                              "fill": "#344054",
+                              "textGrowth": "fixed-width",
+                              "width": 145,
+                              "content": "Data Analytics Essentials",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zkQP3",
+                              "name": "Cell Progress",
+                              "width": 105,
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "qFKD1",
+                                  "name": "Progress Track",
+                                  "width": 50,
+                                  "height": 6,
+                                  "fill": "#f1f5f9",
+                                  "cornerRadius": 3,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "ZikZk",
+                                      "name": "Progress Bar",
+                                      "width": 50,
+                                      "height": 6,
+                                      "fill": "#10b981",
+                                      "cornerRadius": 3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "eYjzy",
+                                  "name": "Progress Text",
+                                  "fill": "#192a3d",
+                                  "content": "100%",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fftz7",
+                              "name": "Cell Status",
+                              "width": 85,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "g5gof",
+                                  "name": "Status Pill",
+                                  "fill": "#ecfdf5",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "S6LrO",
+                                      "name": "Status Text",
+                                      "fill": "#059669",
+                                      "content": "Completed",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "IVEgF",
+                              "name": "Cell Nilai",
+                              "fill": "#059669",
+                              "textGrowth": "fixed-width",
+                              "width": 95,
+                              "content": "92",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "cZxs5",
+                              "name": "Cell Sertifikat",
+                              "width": 92,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fI7Kx",
+                                  "name": "Cert Pill",
+                                  "fill": "#eff6ff",
+                                  "cornerRadius": 6,
+                                  "stroke": "#bfdbfe",
+                                  "strokeWidth": 1,
+                                  "gap": 4,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "p6l7C7",
+                                      "name": "Cert Icon",
+                                      "width": 10,
+                                      "height": 10,
+                                      "icon": "medal",
+                                      "library": "phosphor",
+                                      "fill": "#2872fa"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "gO3Lm",
+                                      "name": "Cert Text",
+                                      "fill": "#2872fa",
+                                      "content": "Issued",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n3L59t",
+                          "name": "Table Row Dimas Pratama",
+                          "width": 716,
+                          "height": 52,
+                          "stroke": "#f1f5f9",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "j7xkEF",
+                              "name": "Cell Peserta",
+                              "width": 170,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "t8f8wX",
+                                  "name": "Avatar",
+                                  "width": 28,
+                                  "height": 28,
+                                  "fill": "#64748b",
+                                  "cornerRadius": 14,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "G9JJiP",
+                                      "name": "Initials",
+                                      "fill": "#ffffff",
+                                      "content": "DP",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "R1AAv",
+                                  "name": "Text Stack",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "RBEct",
+                                      "name": "Name",
+                                      "fill": "#192a3d",
+                                      "content": "Dimas Pratama",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "mEsQT",
+                              "name": "Cell Course",
+                              "fill": "#344054",
+                              "textGrowth": "fixed-width",
+                              "width": 145,
+                              "content": "Digital Product Fundam.",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "t4B6AH",
+                              "name": "Cell Progress",
+                              "width": 105,
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ypnZa",
+                                  "name": "Progress Track",
+                                  "width": 50,
+                                  "height": 6,
+                                  "fill": "#f1f5f9",
+                                  "cornerRadius": 3,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "SZFQv",
+                                      "name": "Progress Bar",
+                                      "width": 50,
+                                      "height": 6,
+                                      "fill": "#10b981",
+                                      "cornerRadius": 3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AGW3y",
+                                  "name": "Progress Text",
+                                  "fill": "#192a3d",
+                                  "content": "100%",
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BXeV8",
+                              "name": "Cell Status",
+                              "width": 85,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "p8wp3",
+                                  "name": "Status Pill",
+                                  "fill": "#ecfdf5",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "C20nNW",
+                                      "name": "Status Text",
+                                      "fill": "#059669",
+                                      "content": "Completed",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "p0WdY",
+                              "name": "Cell Nilai",
+                              "fill": "#d97706",
+                              "textGrowth": "fixed-width",
+                              "width": 95,
+                              "content": "40/55/65",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "S8z7l",
+                              "name": "Cell Sertifikat",
+                              "width": 92,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ECi5l",
+                                  "name": "Not Passed Pill",
+                                  "fill": "#fef2f2",
+                                  "cornerRadius": 6,
+                                  "stroke": "#fecaca",
+                                  "strokeWidth": 1,
+                                  "padding": [
+                                    2,
+                                    6
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "WYztA",
+                                      "name": "Cert Text",
+                                      "fill": "#dc2626",
+                                      "content": "Belum Lulus",
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dotzx",
+                          "name": "Table Card Footer",
+                          "width": 716,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Hsly3",
+                              "name": "Count Text",
+                              "fill": "#64748b",
+                              "content": "Menampilkan 5 dari 892 data peserta terdaftar",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IxMXO",
+                              "name": "Link View All",
+                              "fill": "#2872fa",
+                              "content": "Buka Halaman Monitoring Peserta Lengkap →",
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
